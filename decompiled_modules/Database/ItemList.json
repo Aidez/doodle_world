@@ -1,1298 +1,1449 @@
 {
-    "Sandstorm in a Bottle":{
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Once per battle, when this Doodle gets sent out, summons Sandstorm if there isn't sandstorm already.",
-        "SendOut":null,
-        "Type":"HeldItem",
-        "Image":"http://www.roblox.com/asset/?id=10753735920"
+    "Acid Storm in a Bottle": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Once per battle, when this Doodle gets sent out, summons Acid Rain if there isn't Acid Rain already.",
+        "Image": "http://www.roblox.com/asset/?id=10753580988",
+        "SendOut": null,
+        "Type": "HeldItem"
     },
-    "Misprint Trinket":{
-        "SpecialFunction":null,
-        "InfiniteUses":true,
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Key Items",
-        "Description":"You are more likely to meet misprinted Doodles.",
-        "Image":"http://www.roblox.com/asset/?id=8964981590"
+    "Air Candy Cube": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of an Air-type attack. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=9918363418",
+        "Type": "HeldItem"
     },
-    "Strength Jelly":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to increase the power of one of their weak attacks. This item is consumed after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=7325464522"
+    "Air Taffy": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Air-type attack. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=9552702093",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
     },
-    "Lucky Pebble":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to improve the damage of its Earth-type attacks.",
-        "Image":"http://www.roblox.com/asset/?id=9135923816",
-        "ModifyDamage":null
+    "Anti-Burn Spray": {
+        "Category": "Medicine",
+        "CureStatus": true,
+        "Description": "Use this spray on a Doodle to cure their burn.",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=8974960723",
+        "Price": 400,
+        "Target": "Party"
     },
-    "Earth Taffy":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Earth-type attack. This item is consumed after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=9553004221"
+    "Anti-Freeze Spray": {
+        "Category": "Medicine",
+        "CureStatus": true,
+        "Description": "Use this spray on a Doodle to cure their freeze.",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=8974962320",
+        "Price": 400,
+        "Target": "Party"
     },
-    "Frozen TV Dinner":{
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle. They will be so distracted snacking on a delicious dinner that they will always attack last.",
-        "AttackLast":true,
-        "Type":"HeldItem",
-        "Image":"http://www.roblox.com/asset/?id=7325464936"
+    "Anti-Paralysis Spray": {
+        "Category": "Medicine",
+        "CureStatus": true,
+        "Description": "Use this spray on a Doodle to cure their paralysis.",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=8974961170",
+        "Price": 400,
+        "Target": "Party"
     },
-    "Air Taffy":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Air-type attack. This item is consumed after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=9552702093"
+    "Anti-Sleep Spray": {
+        "Category": "Medicine",
+        "CureStatus": true,
+        "Description": "Use this item to throw it at a Doodle to wake them up.",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=8974962769",
+        "Price": 400,
+        "Target": "Party"
     },
-    "Spirit Taffy":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Spirit-type attack. This item is consumed after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=9553014795"
+    "Antidote": {
+        "Category": "Medicine",
+        "CureStatus": true,
+        "Description": "Use this spray on a Doodle to cure their poisoning.",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=8974963169",
+        "Price": 400,
+        "Target": "Party"
     },
-    "Basic Capsule":{
-        "Function":null,
-        "Category":"Capsules",
-        "Description":"Use this on a wild Doodle in an attempt to capture it.",
-        "CaptureRate":1,
-        "Image":"http://www.roblox.com/asset/?id=10007141516",
-        "Price":400,
-        "CapsuleName":"Basic",
-        "Target":"Capsule",
-        "BattleOnly":true
+    "Bandage": {
+        "Category": "Medicine",
+        "Description": "These bandages heal a Doodle by 25 HP.",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=8736096006",
+        "Price": 400,
+        "Target": "Party"
     },
-    "Beast Candy Cube":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Beast-type attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=9918364486",
-        "DuringDamageCalc":null
+    "Basic Candy Cube": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Basic-type attack. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=9918363973",
+        "Type": "HeldItem"
     },
-    "Level-Up Cube":{
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Items",
-        "Function":null,
-        "Description":"When this item is used on a Doodle, the Doodle levels up!",
-        "Image":"http://www.roblox.com/asset/?id=8951230295",
-        "Price":20,
-        "DontCloseImmediately":true,
-        "Target":"Party",
-        "DevProduct":1197967011,
-        "LevelupItem":true,
-        "RobuxOnly":true
+    "Basic Capsule": {
+        "BattleOnly": true,
+        "CapsuleName": "Basic",
+        "CaptureRate": 1,
+        "Category": "Capsules",
+        "Color3": null,
+        "Description": "Use this on a wild Doodle in an attempt to capture it.",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=10007141516",
+        "Price": 400,
+        "Target": "Capsule"
     },
-    "Ice Taffy":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Ice-type attack. This item is consumed after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=9553006558"
+    "Basic Taffy": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Basic-type attack. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=9552701606",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
     },
-    "Data Chip":{
-        "SpecialFunction":null,
-        "InfiniteUses":true,
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Key Items",
-        "Description":"A data chip containing the blueprint of a mythical Doodle.",
-        "Image":"http://www.roblox.com/asset/?id=9983897528"
+    "Battery": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to improve the damage of its Spark-type attacks.",
+        "Image": "http://www.roblox.com/asset/?id=9136628337",
+        "ModifyDamage": null,
+        "Type": "HeldItem"
     },
-    "Espresso":{
-        "Espresso":true,
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle. This Doodle has a 25% chance to move first each turn.",
-        "Image":"http://www.roblox.com/asset/?id=10743059479"
+    "Beast Candy Cube": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Beast-type attack. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=9918364486",
+        "Type": "HeldItem"
     },
-    "Basic Taffy":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Basic-type attack. This item is consumed after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=9552701606"
+    "Beast Taffy": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Beast-type attack. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=9553001420",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
     },
-    "Heal Jelly":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to have them heal after their health drops below half.  This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=7325470567",
-        "AfterDamage":null
+    "Bubblegum": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to improve the damage of its Food-type attacks.",
+        "Image": "http://www.roblox.com/asset/?id=9717440683",
+        "ModifyDamage": null,
+        "Type": "HeldItem"
     },
-    "Spark Taffy":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Spark-type attack. This item is consumed after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=9553013394"
+    "Candy Bag": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "A candy bag with treats selected by Bonbon. Opening this bag gives you a random taffy and candy cube!",
+        "Image": "http://www.roblox.com/asset/?id=9808177002",
+        "NonPartyFunc": null,
+        "Target": "Party",
+        "Type": "OverworldOnly"
     },
-    "Candy Bag":{
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Items",
-        "Description":"A candy bag with treats selected by Bonbon. Opening this bag gives you a random taffy and candy cube!",
-        "Target":"Party",
-        "Image":"http://www.roblox.com/asset/?id=9808177002",
-        "NonPartyFunc":null
+    "Candy Heart": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "This weird object made of candy fits snugly in your hand, and feels as though it'll start beating.  Allows a certain Doodle to evolve.",
+        "DontCloseImmediately": true,
+        "EvolveItem": true,
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=8830143801",
+        "Target": "Party",
+        "Type": "OverworldOnly"
     },
-    "Battery":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to improve the damage of its Spark-type attacks.",
-        "Image":"http://www.roblox.com/asset/?id=9136628337",
-        "ModifyDamage":null
+    "Cauldron Capsule": {
+        "BattleOnly": true,
+        "CapsuleName": "Cauldron",
+        "CaptureRate": 1,
+        "CatchModifier": null,
+        "Category": "Capsules",
+        "Color3": null,
+        "Description": "Use this on a wild Doodle in an attempt to capture it. Has a higher chance to capture Doodles encountered while trick-or-treating.",
+        "Image": "http://www.roblox.com/asset/?id=11323980554",
+        "Target": "Capsule"
     },
-    "Stat Candy":{
-        "Price":1000,
-        "Image":"http://www.roblox.com/asset/?id=8734086723",
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Items",
-        "Description":"This item lets you change the stat bonuses of a Doodle.",
-        "Target":"Party",
-        "StatCandy":true
+    "Chain Preserver": {
+        "Category": "Key Items",
+        "Color3": null,
+        "Description": "Stores a chain for later use. ",
+        "Image": "http://www.roblox.com/asset/?id=11329163227",
+        "InfiniteUses": true,
+        "SpecialFunction": null,
+        "Type": "OverworldOnly"
     },
-    "Bubblegum":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to improve the damage of its Food-type attacks.",
-        "Image":"http://www.roblox.com/asset/?id=9717440683",
-        "ModifyDamage":null
+    "Champion Belt": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to improve its physical attacks.",
+        "Image": "http://www.roblox.com/asset/?id=6830108296",
+        "ModifyDamage": null,
+        "Type": "HeldItem"
     },
-    "Laminate":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to preserve it, stopping it from evolving.",
-        "NoEvolve":true,
-        "Image":"http://www.roblox.com/asset/?id=10663680220"
+    "Choc Rocks": {
+        "Category": "Key Items",
+        "Color3": null,
+        "Description": "A very addictive candy created by von Sweets.",
+        "Image": "http://www.roblox.com/asset/?id=9989773017",
+        "InfiniteUses": true,
+        "SpecialFunction": null,
+        "Type": "OverworldOnly"
     },
-    "Skin Trunk":{
-        "SpecialFunction":null,
-        "InfiniteUses":true,
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Key Items",
-        "Description":"This leather briefcase lets you see all your un-equipped skins.",
-        "Image":"http://www.roblox.com/asset/?id=8734085982"
+    "Christmas Tintbrush": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "Replaces a Doodle's tint with the Christmas tint.",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=11768064360",
+        "Target": "Party",
+        "Type": "OverworldOnly"
     },
-    "Champion Belt":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to improve its physical attacks.",
-        "Image":"http://www.roblox.com/asset/?id=6830108296",
-        "ModifyDamage":null
+    "Crooked Talon": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to improve the damage of its Beast-type attacks.",
+        "Image": "http://www.roblox.com/asset/?id=11570491300",
+        "ModifyDamage": null,
+        "Type": "HeldItem"
     },
-    "Earth Candy Cube":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Earth-type attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=9918365803",
-        "DuringDamageCalc":null
+    "Crystal Candy Cube": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Crystal-type attack. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=9918365054",
+        "Type": "HeldItem"
     },
-    "Food Candy Cube":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Food-type attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=9918367440",
-        "DuringDamageCalc":null
+    "Crystal Taffy": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Crystal-type attack. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=9552700861",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
     },
-    "Wake-up Jelly":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to wake it up when it gets put to sleep. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=7325464058",
-        "OnStatus":null
+    "Cure Jelly": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to have it cure a status effect when the Doodle is inflicted with one. This item is consumed after one use.",
+        "Image": "http://www.roblox.com/asset/?id=7325480728",
+        "OnStatus": null,
+        "Type": "HeldItem"
     },
-    "Cursed Cloak":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "ModifyDefense":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle. Disables the use of Support moves, but boosts Magical Defense by 50%.",
-        "Image":"http://www.roblox.com/asset/?id=10651317784"
+    "Cursed Cloak": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle. Disables the use of Support moves, but boosts Magical Defense by 50%.",
+        "Image": "http://www.roblox.com/asset/?id=10651317784",
+        "ModifyDefense": null,
+        "Type": "HeldItem"
     },
-    "Orb of Light":{
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Items",
-        "Function":null,
-        "Description":"This strange orb of light allows certain Doodles to evolve.",
-        "EvolveItem":true,
-        "Image":"http://www.roblox.com/asset/?id=8463939552",
-        "Target":"Party",
-        "DontCloseImmediately":true
+    "Dark Candy Cube": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Dark-type attack. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=9918365362",
+        "Type": "HeldItem"
     },
-    "Dark Taffy":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Dark-type attack. This item is consumed after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=9553003459"
+    "Dark Chocolate": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle. If they're a Food-type, they gain health at the end of each turn. If not, they take damage at the end of each turn.",
+        "EndTurn": null,
+        "Image": "http://www.roblox.com/asset/?id=10005745096",
+        "Type": "HeldItem"
     },
-    "Disinfectant":{
-        "Category":"Medicine",
-        "Description":"Use this spray on a Doodle to cure their disease.",
-        "Function":null,
-        "Price":400,
-        "CureStatus":true,
-        "Image":"http://www.roblox.com/asset/?id=8974961687",
-        "Target":"Party"
+    "Dark Taffy": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Dark-type attack. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=9553003459",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
     },
-    "Glasses":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to improve its accuracy of all its moves by 20%.",
-        "Image":"http://www.roblox.com/asset/?id=5721611157",
-        "AttackModifier":null
+    "Data Chip": {
+        "Category": "Key Items",
+        "Color3": null,
+        "Description": "A data chip containing the blueprint of a mythical Doodle.",
+        "Image": "http://www.roblox.com/asset/?id=9983897528",
+        "InfiniteUses": true,
+        "SpecialFunction": null,
+        "Type": "OverworldOnly"
     },
-    "Pocket Storage":{
-        "SpecialFunction":null,
-        "InfiniteUses":true,
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Key Items",
-        "Description":"Access your Doodle Storage remotely.",
-        "Image":"http://www.roblox.com/asset/?id=10649026745"
+    "Defense Orange": {
+        "BattleOnly": true,
+        "Category": "Items",
+        "Color3": null,
+        "Description": "Use this on a Doodle in battle to temporarily raise its defense.",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=5723467215",
+        "Price": 1000,
+        "Target": "Out"
     },
-    "Mind Taffy":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Mind-type attack. This item is consumed after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=9553024865"
+    "Defensive Jelly": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to reduce the power of a super-effective attack. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=7325543224",
+        "Type": "HeldItem"
     },
-    "Crystal Taffy":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Crystal-type attack. This item is consumed after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=9552700861"
+    "Delicate Wing": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to improve the damage of its Insect-type attacks.",
+        "Image": "http://www.roblox.com/asset/?id=9927426456",
+        "ModifyDamage": null,
+        "Type": "HeldItem"
     },
-    "Opal Orb":{
-        "SpecialFunction":null,
-        "InfiniteUses":true,
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Key Items",
-        "Description":"An Opal Orb containing the soul of Craig. Also allows you to encounter Maelzuri in the Crystal Caverns.",
-        "Image":"http://www.roblox.com/asset/?id=9423140689"
+    "Dense Capsule": {
+        "BattleOnly": true,
+        "CapsuleName": "Dense",
+        "CaptureRate": 1,
+        "CatchModifier": null,
+        "Category": "Capsules",
+        "Color3": null,
+        "Description": "Use this on a wild Doodle in an attempt to capture it. Has a higher chance to capture heavier Doodles.",
+        "Image": "http://www.roblox.com/asset/?id=10006233658",
+        "Price": 1000,
+        "Target": "Capsule"
     },
-    "Level-Down Cube":{
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Items",
-        "Function":null,
-        "Description":"When this item is used on a Doodle, the Doodle levels down.",
-        "Image":"http://www.roblox.com/asset/?id=9283898560",
-        "Price":200,
-        "Target":"Party",
-        "DontCloseImmediately":true,
-        "LevelupItem":true
+    "Determination Headband": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle. The Doodle may survive attacks that would otherwise cause it to faint.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=6832985197",
+        "Type": "HeldItem"
     },
-    "Basic Candy Cube":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Basic-type attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=9918363973",
-        "DuringDamageCalc":null
+    "Determination Jelly": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle. If they have full HP, the holder will survive an attack that would otherwise cause it to faint. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=7325471960",
+        "Type": "HeldItem"
     },
-    "Spiky Thorns":{
-        "OnHit":null,
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle. If the holder is hit with a contact move, the attacker will also be damaged.",
-        "Image":"http://www.roblox.com/asset/?id=10779923969"
+    "Disinfectant": {
+        "Category": "Medicine",
+        "CureStatus": true,
+        "Description": "Use this spray on a Doodle to cure their disease.",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=8974961687",
+        "Price": 400,
+        "Target": "Party"
     },
-    "Light Candy Cube":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Light-type attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=9918368731",
-        "DuringDamageCalc":null
+    "Doodle Unlocker": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "Lets you un-tradelock a Doodle obtained from using a Roulette ticket.",
+        "DevProduct": 1305015576,
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=10736808597",
+        "Price": 40,
+        "RobuxOnly": true,
+        "Target": "Party",
+        "Type": "OverworldOnly",
+        "Unlocker": true
     },
-    "Scroll":{
-        "InfiniteUses":true,
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Scrolls",
-        "Description":"PLACEHOLDER TEXT - REPORT IF YOU CAN SEE THIS.",
-        "Image":"http://www.roblox.com/asset/?id=5806222018"
+    "Earth Candy Cube": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Earth-type attack. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=9918365803",
+        "Type": "HeldItem"
     },
-    "Determination Jelly":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle. If they have full HP, the holder will survive an attack that would otherwise cause it to faint. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=7325471960",
-        "DuringDamageCalc":null
+    "Earth Taffy": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Earth-type attack. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=9553004221",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
     },
-    "Anti-Sleep Spray":{
-        "Category":"Medicine",
-        "Description":"Use this item to throw it at a Doodle to wake them up.",
-        "Function":null,
-        "Price":400,
-        "CureStatus":true,
-        "Image":"http://www.roblox.com/asset/?id=8974962769",
-        "Target":"Party"
+    "Edible Storm in a Bottle": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Once per battle, when this Doodle gets sent out, summons Chocolate Rain if there isn't Chocolate Rain already.",
+        "Image": "http://www.roblox.com/asset/?id=10753581726",
+        "SendOut": null,
+        "Type": "HeldItem"
     },
-    "Grease":{
-        "Grease":true,
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to prevent it from getting trapped or wrapped",
-        "Image":"http://www.roblox.com/asset/?id=9135977089"
+    "Equipment Case": {
+        "Category": "Key Items",
+        "Color3": null,
+        "Description": "A case that holds all your equipment.",
+        "Image": "http://www.roblox.com/asset/?id=7657468277",
+        "InfiniteUses": true,
+        "SpecialFunction": null,
+        "Type": "OverworldOnly"
     },
-    "Strange Solution":{
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Items",
-        "Function":null,
-        "Description":"A strange, reactive liquid that may make a certain Doodle evolve. It's cool to the touch.",
-        "EvolveItem":true,
-        "Image":"http://www.roblox.com/asset/?id=8789994917",
-        "Target":"Party",
-        "DontCloseImmediately":true
+    "Espresso": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle. This Doodle has a 25% chance to move first each turn.",
+        "Espresso": true,
+        "Image": "http://www.roblox.com/asset/?id=10743059479",
+        "Type": "HeldItem"
     },
-    "Hidden Trait Trinket":{
-        "SpecialFunction":null,
-        "InfiniteUses":true,
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Key Items",
-        "Description":"You are more likely to meet Doodles who have their hidden trait.",
-        "Image":"http://www.roblox.com/asset/?id=9205213322"
+    "Fire Candy Cube": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Fire-type attack. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=9918366463",
+        "Type": "HeldItem"
     },
-    "Roulette Ticket":{
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Items",
-        "Description":"You can use this item for a free Roulette spin! However, the Doodle you get will be trade-locked.",
-        "Target":"Party",
-        "Image":"http://www.roblox.com/asset/?id=9407500752",
-        "NonPartyFunc":null
+    "Fire Taffy": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Fire-type attack. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=9553005518",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
     },
-    "Insect Taffy":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Insect-type attack. This item is consumed after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=9552701242"
+    "Food Candy Cube": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Food-type attack. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=9918367440",
+        "Type": "HeldItem"
     },
-    "Super Bandage":{
-        "Category":"Medicine",
-        "Description":"These bandages heal a Doodle by 60 HP.",
-        "Function":null,
-        "Price":1000,
-        "Image":"http://www.roblox.com/asset/?id=9685180454",
-        "Target":"Party"
+    "Food Taffy": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Food-type attack. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=9552699828",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
     },
-    "Orb of Darkness":{
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Items",
-        "Function":null,
-        "Description":"This strange orb of darkness allows certain Doodles to evolve.",
-        "EvolveItem":true,
-        "Image":"http://www.roblox.com/asset/?id=8463940065",
-        "Target":"Party",
-        "DontCloseImmediately":true
+    "Friendship Ribbon": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A doodle holding this item becomes friendlier faster.",
+        "FriendshipModifier": 2,
+        "Image": "http://www.roblox.com/asset/?id=6832984941",
+        "Type": "HeldItem"
     },
-    "Heart Capsule":{
-        "Color3":null,
-        "Category":"Capsules",
-        "BattleOnly":true,
-        "Description":"Use this on a wild Doodle in an attempt to capture it. Doodles caught in this capsule will become friendlier faster.",
-        "CaptureRate":1,
-        "CapsuleName":"Heart",
-        "Image":"http://www.roblox.com/asset/?id=10006572228",
-        "Target":"Capsule",
-        "AfterCaught":null,
-        "Price":1000
+    "Frozen TV Dinner": {
+        "AttackLast": true,
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle. They will be so distracted snacking on a delicious dinner that they will always attack last.",
+        "Image": "http://www.roblox.com/asset/?id=7325464936",
+        "Type": "HeldItem"
     },
-    "Starry Glasses":{
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle and when it gets sent out, identifies the stars the opponents have.",
-        "SendOut":null,
-        "Type":"HeldItem",
-        "Image":"http://www.roblox.com/asset/?id=9443817615"
+    "Glasses": {
+        "AttackModifier": null,
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to improve its accuracy of all its moves by 20%.",
+        "Image": "http://www.roblox.com/asset/?id=5721611157",
+        "Type": "HeldItem"
     },
-    "Speed Jelly":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to have them boost their speed when their health gets low. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=7325462367",
-        "AfterDamage":null
+    "Gold Capsule": {
+        "BattleOnly": true,
+        "CapsuleName": "Gold",
+        "CaptureRate": "Gold",
+        "Category": "Capsules",
+        "Color3": null,
+        "Description": "Use this on a wild Doodle to capture it. This capsule will never fail on a wild doodle.",
+        "DevProduct": 1251977223,
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=10007156625",
+        "Price": 50,
+        "RobuxOnly": true,
+        "Target": "Capsule"
     },
-    "Chain Preserver":{
-        "SpecialFunction":null,
-        "InfiniteUses":true,
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Key Items",
-        "Description":"Stores a chain for later use. ",
-        "Image":"http://www.roblox.com/asset/?id=9631194297"
+    "Gold Laminate": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to preserve it, stopping it from evolving. If the Doodle is able to evolve, boost its Defense and Magical Defense by 50%.",
+        "Image": "http://www.roblox.com/asset/?id=10663681148",
+        "ModifyDefense": null,
+        "NoEvolve": true,
+        "Type": "HeldItem"
     },
-    "Water Candy Cube":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Water-type attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=9918373556",
-        "DuringDamageCalc":null
+    "Grease": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to prevent it from getting trapped or wrapped",
+        "Grease": true,
+        "Image": "http://www.roblox.com/asset/?id=9135977089",
+        "Type": "HeldItem"
     },
-    "Metal Taffy":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Metal-type attack. This item is consumed after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=9553009871"
+    "Greater Chain Ticket": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "You can use this item to increase your current chain by 50! If it's a Mythical Doodle, it will only increase by 5. (Not tradable)",
+        "DevProduct": 1272071097,
+        "Image": "http://www.roblox.com/asset/?id=9872855638",
+        "NonPartyFunc": null,
+        "Price": 200,
+        "RobuxOnly": true,
+        "Target": "Party",
+        "Type": "OverworldOnly"
     },
-    "Delicate Wing":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to improve the damage of its Insect-type attacks.",
-        "Image":"http://www.roblox.com/asset/?id=9927426456",
-        "ModifyDamage":null
+    "Halloween Tintbrush": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "Replaces a Doodle's tint with the Halloween tint.",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=11218982487",
+        "Target": "Party",
+        "Type": "OverworldOnly"
     },
-    "Mythic Taffy":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Mythic-type attack. This item is consumed after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=9553011102"
+    "Haunted Tome": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "The next house you trick or treat at will have a Halloween Doodle guaranteed!",
+        "Image": "http://www.roblox.com/asset/?id=11277917582",
+        "NonPartyFunc": null,
+        "Type": "OverworldOnly"
     },
-    "ShopRequirements":{
-        "Basic Capsule":[
-            "Starter",
-            1
-        ],
-        "Level-Up Cube":[
-            "Starter",
-            14
-        ],
-        "Stat Candy":[
-            "Starter",
-            12
-        ],
-        "Anti-Sleep Spray":[
-            "Starter",
-            11
-        ],
-        "Medical Capsule":[
-            "CapsuleQuest",
-            3
-        ],
-        "Anti-Paralysis Spray":[
+    "Heal Jelly": {
+        "AfterDamage": null,
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to have them heal after their health drops below half.  This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=7325470567",
+        "Type": "HeldItem"
+    },
+    "Heart Capsule": {
+        "AfterCaught": null,
+        "BattleOnly": true,
+        "CapsuleName": "Heart",
+        "CaptureRate": 1,
+        "Category": "Capsules",
+        "Color3": null,
+        "Description": "Use this on a wild Doodle in an attempt to capture it. Doodles caught in this capsule will become friendlier faster.",
+        "Image": "http://www.roblox.com/asset/?id=10006572228",
+        "Price": 1000,
+        "Target": "Capsule"
+    },
+    "Hidden Trait Badge": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "[DEV ITEM] Changes Doodle's Trait to Hidden Trait",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=7244408626",
+        "Target": "Party",
+        "Type": "OverworldOnly"
+    },
+    "Hidden Trait Trinket": {
+        "Category": "Key Items",
+        "Color3": null,
+        "Description": "You are more likely to meet Doodles who have their hidden trait.",
+        "Image": "http://www.roblox.com/asset/?id=9205213322",
+        "InfiniteUses": true,
+        "SpecialFunction": null,
+        "Type": "OverworldOnly"
+    },
+    "Ice Candy Cube": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Ice-type attack. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=9918367861",
+        "Type": "HeldItem"
+    },
+    "Ice Cream Pop": {
+        "Category": "Medicine",
+        "Color3": null,
+        "Description": "Feed this item to a Doodle to replenish all of their Moves' Uses by 10.",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=9425430888",
+        "Target": "Party"
+    },
+    "Ice Pack": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to improve the damage of its Ice-type attacks.",
+        "Image": "http://www.roblox.com/asset/?id=9136451114",
+        "ModifyDamage": null,
+        "Type": "HeldItem"
+    },
+    "Ice Taffy": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Ice-type attack. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=9553006558",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
+    },
+    "Insect Candy Cube": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Insect-type attack. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=9918368279",
+        "Type": "HeldItem"
+    },
+    "Insect Taffy": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Insect-type attack. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=9552701242",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
+    },
+    "Laminate": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to preserve it, stopping it from evolving.",
+        "Image": "http://www.roblox.com/asset/?id=10663680220",
+        "NoEvolve": true,
+        "Type": "HeldItem"
+    },
+    "Lesser Chain Ticket": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "You can use this item to increase your current chain by 10! If it's a Mythical Doodle, it will only increase by 1. (Not tradable)",
+        "DevProduct": 1272071098,
+        "Image": "http://www.roblox.com/asset/?id=9872854717",
+        "NonPartyFunc": null,
+        "Price": 40,
+        "RobuxOnly": true,
+        "Target": "Party",
+        "Type": "OverworldOnly"
+    },
+    "Level-Down Cube": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "When this item is used on a Doodle, the Doodle levels down.",
+        "DontCloseImmediately": true,
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=9283898560",
+        "LevelupItem": true,
+        "Price": 200,
+        "Target": "Party",
+        "Type": "OverworldOnly"
+    },
+    "Level-Up Cube": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "When this item is used on a Doodle, the Doodle levels up!",
+        "DevProduct": 1197967011,
+        "DontCloseImmediately": true,
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=8951230295",
+        "LevelupItem": true,
+        "Price": 20,
+        "RobuxOnly": true,
+        "Target": "Party",
+        "Type": "OverworldOnly"
+    },
+    "Light Candy Cube": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Light-type attack. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=9918368731",
+        "Type": "HeldItem"
+    },
+    "Light Taffy": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Light-type attack. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=9553007659",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
+    },
+    "Lighter": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle. At the end of each turn, it inflicts a burn on the user.",
+        "EndTurn": null,
+        "Image": "http://www.roblox.com/asset/?id=10006277376",
+        "Type": "HeldItem"
+    },
+    "Lucky Pebble": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to improve the damage of its Earth-type attacks.",
+        "Image": "http://www.roblox.com/asset/?id=9135923816",
+        "ModifyDamage": null,
+        "Type": "HeldItem"
+    },
+    "Magical Banana": {
+        "BattleOnly": true,
+        "Category": "Items",
+        "Color3": null,
+        "Description": "Use this on a Doodle in battle to temporarily raise its magic attack.",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=5723459665",
+        "Price": 1000,
+        "Target": "Out"
+    },
+    "Magical Jelly": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to increase the power of one of their magical attacks. This item is consumed  after use.",
+        "Image": "http://www.roblox.com/asset/?id=7325462966",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
+    },
+    "Magnifying Glass": {
+        "BattleOnly": true,
+        "Category": "Key Items",
+        "Color3": null,
+        "Description": "Allows you to view wild Doodle's stats.",
+        "Image": "http://www.roblox.com/asset/?id=9137034166",
+        "InfiniteUses": true,
+        "LocalFunction": null
+    },
+    "Master Cube": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "[DEV ITEM] When this item is used on a Doodle, the Doodle levels up to 100!",
+        "DontCloseImmediately": true,
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=8962603595",
+        "LevelupItem": true,
+        "Target": "Party",
+        "Type": "OverworldOnly"
+    },
+    "Mawthra Rune": {
+        "Awakening": {
+            "Awakened": "Mawthra-A",
+            "Requirement": "Mawthra"
+        },
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A strange rune from long ago researched by DoodleCo. Give this item to Mawthra to have it awaken its true power.",
+        "Image": "http://www.roblox.com/asset/?id=11702233589",
+        "Runestone": true,
+        "Type": "HeldItem"
+    },
+    "Medical Capsule": {
+        "AfterCaught": null,
+        "BattleOnly": true,
+        "CapsuleName": "Medical",
+        "CaptureRate": 1,
+        "Category": "Capsules",
+        "Color3": null,
+        "Description": "Use this on a wild Doodle in an attempt to capture it. After being captured, the Doodle's health is fully restored .",
+        "Image": "http://www.roblox.com/asset/?id=10006436146",
+        "Price": 1000,
+        "Target": "Capsule"
+    },
+    "Melee Candy Cube": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Melee-type attack. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=9918369396",
+        "Type": "HeldItem"
+    },
+    "Melee Taffy": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Melee-type attack. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=9553008930",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
+    },
+    "Memento": {
+        "Category": "Key Items",
+        "Color3": null,
+        "Description": "A memento from the good old days.",
+        "Image": "http://www.roblox.com/asset/?id=7297929502",
+        "InfiniteUses": true,
+        "SpecialFunction": null,
+        "Type": "OverworldOnly"
+    },
+    "Metal Candy Cube": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Metal-type attack. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=9918369974",
+        "Type": "HeldItem"
+    },
+    "Metal Taffy": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Metal-type attack. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=9553009871",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
+    },
+    "Mind Candy Cube": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Mind-type attack. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=9918370444",
+        "Type": "HeldItem"
+    },
+    "Mind Taffy": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Mind-type attack. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=9553024865",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
+    },
+    "Misprint Trinket": {
+        "Category": "Key Items",
+        "Color3": null,
+        "Description": "You are more likely to meet misprinted Doodles.",
+        "Image": "http://www.roblox.com/asset/?id=8964981590",
+        "InfiniteUses": true,
+        "SpecialFunction": null,
+        "Type": "OverworldOnly"
+    },
+    "Money Trinket": {
+        "Category": "Key Items",
+        "Color3": null,
+        "Description": "Allows you to get double money from tamer battles and help center requests.",
+        "Image": "http://www.roblox.com/asset/?id=9145190706",
+        "InfiniteUses": true,
+        "SpecialFunction": null,
+        "Type": "OverworldOnly"
+    },
+    "Moon Charm": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to improve the damage of its Dark-type attacks.",
+        "Image": "http://www.roblox.com/asset/?id=11607464437",
+        "ModifyDamage": null,
+        "Type": "HeldItem"
+    },
+    "Mythic Candy Cube": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Mythic-type attack. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=9918371058",
+        "Type": "HeldItem"
+    },
+    "Mythic Taffy": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Mythic-type attack. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=9553011102",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
+    },
+    "Mythical Trinket": {
+        "Category": "Key Items",
+        "Color3": null,
+        "Description": "You are more likely to meet doodles of Legend.",
+        "Image": "http://www.roblox.com/asset/?id=9205212570",
+        "InfiniteUses": true,
+        "SpecialFunction": null,
+        "Type": "OverworldOnly"
+    },
+    "Opal Orb": {
+        "Category": "Key Items",
+        "Color3": null,
+        "Description": "An Opal Orb containing the soul of Craig. Also allows you to encounter Maelzuri in the Crystal Caverns.",
+        "Image": "http://www.roblox.com/asset/?id=9423140689",
+        "InfiniteUses": true,
+        "SpecialFunction": null,
+        "Type": "OverworldOnly"
+    },
+    "Orb of Darkness": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "This strange orb of darkness allows certain Doodles to evolve.",
+        "DontCloseImmediately": true,
+        "EvolveItem": true,
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=8463940065",
+        "Target": "Party",
+        "Type": "OverworldOnly"
+    },
+    "Orb of Light": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "This strange orb of light allows certain Doodles to evolve.",
+        "DontCloseImmediately": true,
+        "EvolveItem": true,
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=8463939552",
+        "Target": "Party",
+        "Type": "OverworldOnly"
+    },
+    "Perfect Alloy": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to improve the damage of its Metal-type attacks.",
+        "Image": "http://www.roblox.com/asset/?id=11570228995",
+        "ModifyDamage": null,
+        "Type": "HeldItem"
+    },
+    "Plant Candy Cube": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Plant-type attack. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=9918371596",
+        "Type": "HeldItem"
+    },
+    "Plant Taffy": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Plant-type attack. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=9552698960",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
+    },
+    "Pocket Storage": {
+        "Category": "Key Items",
+        "Color3": null,
+        "Description": "Access your Doodle Storage remotely.",
+        "Image": "http://www.roblox.com/asset/?id=10649026745",
+        "InfiniteUses": true,
+        "SpecialFunction": null,
+        "Type": "OverworldOnly"
+    },
+    "Poison Candy Cube": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Poison-type attack. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=9918372062",
+        "Type": "HeldItem"
+    },
+    "Poison Taffy": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Poison-type attack. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=9553012344",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
+    },
+    "Polkadot Capsule": {
+        "BattleOnly": true,
+        "CapsuleName": "Polkadot",
+        "CaptureRate": 2,
+        "Category": "Capsules",
+        "Color3": null,
+        "Description": "Use this on a wild Doodle in an attempt to capture it. Has a higher chance to capture than Striped Capsules.",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=10006345035",
+        "Price": 2000,
+        "Target": "Capsule"
+    },
+    "Power Banana": {
+        "BattleOnly": true,
+        "Category": "Items",
+        "Color3": null,
+        "Description": "Use this on a Doodle in battle to temporarily raise its attack.",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=5723501902",
+        "Price": 1000,
+        "Target": "Out"
+    },
+    "Power Jelly": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to restore their stats when they are lowered.  This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=8864653882",
+        "OnStatChange": null,
+        "Type": "HeldItem"
+    },
+    "Pretty Seashell": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to improve the damage of its Water-type attacks.",
+        "Image": "http://www.roblox.com/asset/?id=9927650899",
+        "ModifyDamage": null,
+        "Type": "HeldItem"
+    },
+    "Pristine Axe": {
+        "Category": "Key Items",
+        "Color3": null,
+        "Description": "An axe used to chop down trees and wooden doors.",
+        "Image": "http://www.roblox.com/asset/?id=9552475405",
+        "InfiniteUses": true,
+        "SpecialFunction": null,
+        "Type": "OverworldOnly"
+    },
+    "Refractive Prism": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to improve the damage of its Light-type attacks.",
+        "Image": "http://www.roblox.com/asset/?id=11573518034",
+        "ModifyDamage": null,
+        "Type": "HeldItem"
+    },
+    "Resist Grapes": {
+        "BattleOnly": true,
+        "Category": "Items",
+        "Color3": null,
+        "Description": "Use this on a Doodle in battle to temporarily raise its magical defense.",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=5721610847",
+        "Price": 1000,
+        "Target": "Out"
+    },
+    "Riot Shield": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle. It protects them from effects caused by attacking the target.",
+        "DisableOnHit": true,
+        "Image": "http://www.roblox.com/asset/?id=11667891264",
+        "Type": "HeldItem"
+    },
+    "Roulette Ticket": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "You can use this item for a free Roulette spin! However, the Doodle you get will be trade-locked.",
+        "Image": "http://www.roblox.com/asset/?id=9407500752",
+        "NonPartyFunc": null,
+        "Target": "Party",
+        "Type": "OverworldOnly"
+    },
+    "Running Shoes": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle so it can flee from any wild Doodle without fail.",
+        "Image": "http://www.roblox.com/asset/?id=9575744399",
+        "RunningShoes": true,
+        "Type": "HeldItem"
+    },
+    "Sandstorm in a Bottle": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Once per battle, when this Doodle gets sent out, summons Sandstorm if there isn't sandstorm already.",
+        "Image": "http://www.roblox.com/asset/?id=10753735920",
+        "SendOut": null,
+        "Type": "HeldItem"
+    },
+    "Scroll": {
+        "Category": "Scrolls",
+        "Color3": null,
+        "Description": "PLACEHOLDER TEXT - REPORT IF YOU CAN SEE THIS.",
+        "Image": "http://www.roblox.com/asset/?id=5806222018",
+        "InfiniteUses": true,
+        "Type": "OverworldOnly"
+    },
+    "ShopRequirements": {
+        "Anti-Paralysis Spray": [
             "Starter",
             10
         ],
-        "Doodle Unlocker":[
-            "Starter",
-            18
-        ],
-        "Striped Capsule":[
+        "Anti-Sleep Spray": [
             "1stKey",
-            2
+            11
         ],
-        "Greater Chain Ticket":[
-            "Starter",
-            17
-        ],
-        "Level-Down Cube":[
-            "Starter",
-            13
-        ],
-        "Swarm Snack":[
-            "Starter",
-            15
-        ],
-        "Lesser Chain Ticket":[
-            "Starter",
-            16
-        ],
-        "Bandage":[
-            "Starter",
-            7
-        ],
-        "Super Bandage":[
-            "1stKey",
-            8
-        ],
-        "Dense Capsule":[
-            "CapsuleQuest",
-            5
-        ],
-        "Heart Capsule":[
-            "CapsuleQuest",
-            4
-        ],
-        "Antidote":[
+        "Antidote": [
             "Starter",
             9
         ],
-        "Gold Capsule":[
+        "Bandage": [
+            "Starter",
+            7
+        ],
+        "Basic Capsule": [
+            "Starter",
+            1
+        ],
+        "Dense Capsule": [
+            "CapsuleQuest",
+            5
+        ],
+        "Doodle Unlocker": [
+            "Starter",
+            19
+        ],
+        "Gold Capsule": [
             "Starter",
             6
+        ],
+        "Greater Chain Ticket": [
+            "Starter",
+            18
+        ],
+        "Heart Capsule": [
+            "CapsuleQuest",
+            4
+        ],
+        "Lesser Chain Ticket": [
+            "Starter",
+            17
+        ],
+        "Level-Down Cube": [
+            "Starter",
+            14
+        ],
+        "Level-Up Cube": [
+            "Starter",
+            15
+        ],
+        "Medical Capsule": [
+            "CapsuleQuest",
+            3
+        ],
+        "Stat Candy": [
+            "Starter",
+            13
+        ],
+        "Striped Capsule": [
+            "1stKey",
+            2
+        ],
+        "Super Bandage": [
+            "1stKey",
+            8
+        ],
+        "Swarm Snack": [
+            "Starter",
+            16
+        ],
+        "Tint Scraper": [
+            "1stKey",
+            12
         ]
     },
-    "Training Helper":{
-        "Type":"Toggleable",
-        "Color3":null,
-        "Category":"Key Items",
-        "Description":"If this item is on, every Doodle in your party gets experience in each battle.",
-        "Image":"http://www.roblox.com/asset/?id=5755227686"
-    },
-    "Melee Taffy":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Melee-type attack. This item is consumed after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=9553008930"
-    },
-    "Spectator Camera":{
-        "SpecialFunction":null,
-        "InfiniteUses":true,
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Key Items",
-        "Description":"This camera allows you to spectate other people's battles.",
-        "Image":"http://www.roblox.com/asset/?id=5786118191"
-    },
-    "Magnifying Glass":{
-        "Image":"http://www.roblox.com/asset/?id=9137034166",
-        "Color3":null,
-        "BattleOnly":true,
-        "Category":"Key Items",
-        "Description":"Allows you to view wild Doodle's stats.",
-        "LocalFunction":null,
-        "InfiniteUses":true
-    },
-    "Master Cube":{
-        "Type":"OverworldOnly",
-        "Category":"Items",
-        "Color3":null,
-        "Function":null,
-        "Description":"[DEV ITEM] When this item is used on a Doodle, the Doodle levels up to 100!",
-        "Image":"http://www.roblox.com/asset/?id=8962603595",
-        "LevelupItem":true,
-        "Target":"Party",
-        "DontCloseImmediately":true
-    },
-    "Power Banana":{
-        "BattleOnly":true,
-        "Color3":null,
-        "Category":"Items",
-        "Description":"Use this on a Doodle in battle to temporarily raise its attack.",
-        "Function":null,
-        "Price":1000,
-        "Image":"http://www.roblox.com/asset/?id=5723501902",
-        "Target":"Out"
-    },
-    "Used Crayons":{
-        "Type":"HeldItem",
-        "EndTurn":null,
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to have it restore a little bit of its health at the end of every turn.",
-        "Image":"http://www.roblox.com/asset/?id=6852190534"
-    },
-    "Doodle Unlocker":{
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Items",
-        "Function":null,
-        "Description":"Lets you un-tradelock a Doodle obtained from using a Roulette ticket.",
-        "Image":"http://www.roblox.com/asset/?id=10736808597",
-        "Price":40,
-        "Unlocker":true,
-        "Target":"Party",
-        "DevProduct":1305015576,
-        "RobuxOnly":true
-    },
-    "Defense Orange":{
-        "BattleOnly":true,
-        "Color3":null,
-        "Category":"Items",
-        "Description":"Use this on a Doodle in battle to temporarily raise its defense.",
-        "Function":null,
-        "Price":1000,
-        "Image":"http://www.roblox.com/asset/?id=5723467215",
-        "Target":"Out"
-    },
-    "Money Trinket":{
-        "SpecialFunction":null,
-        "InfiniteUses":true,
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Key Items",
-        "Description":"Allows you to get double money from tamer battles and help center requests.",
-        "Image":"http://www.roblox.com/asset/?id=9145190706"
-    },
-    "Anti-Burn Spray":{
-        "Category":"Medicine",
-        "Description":"Use this spray on a Doodle to cure their burn.",
-        "Function":null,
-        "Price":400,
-        "CureStatus":true,
-        "Image":"http://www.roblox.com/asset/?id=8974960723",
-        "Target":"Party"
-    },
-    "Light Taffy":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Light-type attack. This item is consumed after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=9553007659"
-    },
-    "Gold Capsule":{
-        "Category":"Capsules",
-        "Color3":null,
-        "Function":null,
-        "Description":"Use this on a wild Doodle to capture it. This capsule will never fail on a wild doodle.",
-        "RobuxOnly":true,
-        "CaptureRate":"Gold",
-        "Image":"http://www.roblox.com/asset/?id=10007156625",
-        "Price":50,
-        "CapsuleName":"Gold",
-        "Target":"Capsule",
-        "DevProduct":1251977223,
-        "BattleOnly":true
-    },
-    "Ice Pack":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to improve the damage of its Ice-type attacks.",
-        "Image":"http://www.roblox.com/asset/?id=9136451114",
-        "ModifyDamage":null
-    },
-    "Anti-Paralysis Spray":{
-        "Category":"Medicine",
-        "Description":"Use this spray on a Doodle to cure their paralysis.",
-        "Function":null,
-        "Price":400,
-        "CureStatus":true,
-        "Image":"http://www.roblox.com/asset/?id=8974961170",
-        "Target":"Party"
-    },
-    "Used Timber":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to improve the damage of its Fire-type attacks.",
-        "Image":"http://www.roblox.com/asset/?id=9136096252",
-        "ModifyDamage":null
-    },
-    "Polkadot Capsule":{
-        "Color3":null,
-        "Category":"Capsules",
-        "Description":"Use this on a wild Doodle in an attempt to capture it. Has a higher chance to capture than Striped Capsules.",
-        "CaptureRate":2,
-        "Image":"http://www.roblox.com/asset/?id=10006345035",
-        "Price":2000,
-        "CapsuleName":"Polkadot",
-        "Target":"Capsule",
-        "Function":null,
-        "BattleOnly":true
-    },
-    "Pretty Seashell":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to improve the damage of its Water-type attacks.",
-        "Image":"http://www.roblox.com/asset/?id=9927650899",
-        "ModifyDamage":null
-    },
-    "Fire Candy Cube":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Fire-type attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=9918366463",
-        "DuringDamageCalc":null
-    },
-    "Friendship Ribbon":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"A doodle holding this item becomes friendlier faster.",
-        "Image":"http://www.roblox.com/asset/?id=6832984941",
-        "FriendshipModifier":2
-    },
-    "Dark Chocolate":{
-        "Type":"HeldItem",
-        "EndTurn":null,
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle. If they're a Food-type, they gain health at the end of each turn. If not, they take damage at the end of each turn.",
-        "Image":"http://www.roblox.com/asset/?id=10005745096"
-    },
-    "Memento":{
-        "SpecialFunction":null,
-        "InfiniteUses":true,
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Key Items",
-        "Description":"A memento from the good old days.",
-        "Image":"http://www.roblox.com/asset/?id=7297929502"
-    },
-    "Trait Badge":{
-        "Color3":null,
-        "Category":"Items",
-        "Description":"This badge allows you to swap a Doodle's trait.",
-        "Function":null,
-        "Type":"OverworldOnly",
-        "Target":"Party",
-        "Image":"http://www.roblox.com/asset/?id=6833202115"
-    },
-    "Tally Counter":{
-        "SpecialFunction":null,
-        "InfiniteUses":true,
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Key Items",
-        "Description":"Allows to see your current Doodle chain.",
-        "Image":"http://www.roblox.com/asset/?id=6832985555"
-    },
-    "Lighter":{
-        "Type":"HeldItem",
-        "EndTurn":null,
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle. At the end of each turn, it inflicts a burn on the user.",
-        "Image":"http://www.roblox.com/asset/?id=10006277376"
-    },
-    "Crystal Candy Cube":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Crystal-type attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=9918365054",
-        "DuringDamageCalc":null
-    },
-    "Mind Candy Cube":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Mind-type attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=9918370444",
-        "DuringDamageCalc":null
-    },
-    "Striped Capsule":{
-        "Function":null,
-        "Category":"Capsules",
-        "Description":"Use this on a wild Doodle in an attempt to capture it. Has a higher chance to capture than Basic Capsules.",
-        "CaptureRate":1.5,
-        "Image":"http://www.roblox.com/asset/?id=10007174600",
-        "Price":1000,
-        "CapsuleName":"Striped",
-        "Target":"Capsule",
-        "BattleOnly":true
-    },
-    "Speed Soda":{
-        "BattleOnly":true,
-        "Color3":null,
-        "Category":"Items",
-        "Description":"Use this on a Doodle in battle to temporarily raise its speed.",
-        "Function":null,
-        "Price":1000,
-        "Image":"http://www.roblox.com/asset/?id=5721610564",
-        "Target":"Out"
-    },
-    "Air Candy Cube":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of an Air-type attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=9918363418",
-        "DuringDamageCalc":null
-    },
-    "Dense Capsule":{
-        "Color3":null,
-        "Category":"Capsules",
-        "Description":"Use this on a wild Doodle in an attempt to capture it. Has a higher chance to capture heavier Doodles.",
-        "CaptureRate":1,
-        "Image":"http://www.roblox.com/asset/?id=10006233658",
-        "Price":1000,
-        "CapsuleName":"Dense",
-        "Target":"Capsule",
-        "CatchModifer":null,
-        "BattleOnly":true
-    },
-    "Equipment Case":{
-        "SpecialFunction":null,
-        "InfiniteUses":true,
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Key Items",
-        "Description":"A case that holds all your equipment.",
-        "Image":"http://www.roblox.com/asset/?id=7657468277"
-    },
-    "Plant Taffy":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Plant-type attack. This item is consumed after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=9552698960"
-    },
-    "Insect Candy Cube":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Insect-type attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=9918368279",
-        "DuringDamageCalc":null
-    },
-    "Mythic Candy Cube":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Mythic-type attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=9918371058",
-        "DuringDamageCalc":null
-    },
-    "Metal Candy Cube":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Metal-type attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=9918369974",
-        "DuringDamageCalc":null
-    },
-    "Ice Cream Pop":{
-        "Color3":null,
-        "Category":"Medicine",
-        "Description":"Feed this item to a Doodle to replenish all of their Moves' Uses by 10.",
-        "Function":null,
-        "Image":"http://www.roblox.com/asset/?id=9425430888",
-        "Target":"Party"
-    },
-    "Resist Grapes":{
-        "BattleOnly":true,
-        "Color3":null,
-        "Category":"Items",
-        "Description":"Use this on a Doodle in battle to temporarily raise its magical defense.",
-        "Function":null,
-        "Price":1000,
-        "Image":"http://www.roblox.com/asset/?id=5721610847",
-        "Target":"Out"
-    },
-    "Plant Candy Cube":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Plant-type attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=9918371596",
-        "DuringDamageCalc":null
-    },
-    "Hidden Trait Badge":{
-        "Color3":null,
-        "Category":"Items",
-        "Description":"[DEV ITEM] Changes Doodle's Trait to Hidden Trait",
-        "Function":null,
-        "Type":"OverworldOnly",
-        "Target":"Party",
-        "Image":"http://www.roblox.com/asset/?id=7244408626"
-    },
-    "Strange Substance":{
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Items",
-        "Function":null,
-        "Description":"A strange, reactive substance allows certain Doodles to evolve. It's oddly warm to the touch.",
-        "EvolveItem":true,
-        "Image":"http://www.roblox.com/asset/?id=8789995239",
-        "Target":"Party",
-        "DontCloseImmediately":true
-    },
-    "Lesser Chain Ticket":{
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Items",
-        "Description":"You can use this item to increase your current chain by 10! If it's a Mythical Doodle, it will only increase by 1. (Not tradable)",
-        "Image":"http://www.roblox.com/asset/?id=9872854717",
-        "Price":40,
-        "Target":"Party",
-        "DevProduct":1272071098,
-        "NonPartyFunc":null,
-        "RobuxOnly":true
-    },
-    "Greater Chain Ticket":{
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Items",
-        "Description":"You can use this item to increase your current chain by 50! If it's a Mythical Doodle, it will only increase by 5. (Not tradable)",
-        "Image":"http://www.roblox.com/asset/?id=9872855638",
-        "Price":200,
-        "Target":"Party",
-        "DevProduct":1272071097,
-        "NonPartyFunc":null,
-        "RobuxOnly":true
-    },
-    "Spark Candy Cube":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Spark-type attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=9918372658",
-        "DuringDamageCalc":null
-    },
-    "Running Shoes":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle so it can flee from any wild Doodle without fail.",
-        "RunningShoes":true,
-        "Image":"http://www.roblox.com/asset/?id=9575744399"
-    },
-    "Worn-Out Mythical Trinket":{
-        "SpecialFunction":null,
-        "InfiniteUses":true,
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Key Items",
-        "Description":"You are more likely to meet doodles of Legend. However, because it's worn out, the effect isn't as potent.",
-        "Image":"http://www.roblox.com/asset/?id=9205534035"
-    },
-    "Beast Taffy":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Beast-type attack. This item is consumed after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=9553001420"
-    },
-    "Strange Catalyst":{
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Items",
-        "Function":null,
-        "Description":"A strange, reactive item that may make a certain Doodle evolve. It doesn't seem safe to touch. ",
-        "EvolveItem":true,
-        "Image":"http://www.roblox.com/asset/?id=8789994663",
-        "Target":"Party",
-        "DontCloseImmediately":true
-    },
-    "Power Jelly":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to restore their stats when they are lowered.  This item is consumed after use.",
-        "OnStatChange":null,
-        "Image":"http://www.roblox.com/asset/?id=8864653882"
-    },
-    "Swarm Snack":{
-        "Type":"OverworldOnly",
-        "GemPrice":600,
-        "Color3":null,
-        "Category":"Items",
-        "Description":"These treats may be a little too tasty. Sprinkle these around and watch the Doodles swarm!",
-        "Image":"http://www.roblox.com/asset/?id=10778778895",
-        "NonPartyFunc":null
-    },
-    "Choc Rocks":{
-        "SpecialFunction":null,
-        "InfiniteUses":true,
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Key Items",
-        "Description":"A very addictive candy created by von Sweets.",
-        "Image":"http://www.roblox.com/asset/?id=9989773017"
-    },
-    "Poison Candy Cube":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Poison-type attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=9918372062",
-        "DuringDamageCalc":null
-    },
-    "Dark Candy Cube":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Dark-type attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=9918365362",
-        "DuringDamageCalc":null
-    },
-    "Pristine Axe":{
-        "SpecialFunction":null,
-        "InfiniteUses":true,
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Key Items",
-        "Description":"An axe used to chop down trees and wooden doors.",
-        "Image":"http://www.roblox.com/asset/?id=9552475405"
-    },
-    "Candy Heart":{
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Items",
-        "Function":null,
-        "Description":"This weird object made of candy fits snugly in your hand, and feels as though it'll start beating.  Allows a certain Doodle to evolve.",
-        "EvolveItem":true,
-        "Image":"http://www.roblox.com/asset/?id=8830143801",
-        "Target":"Party",
-        "DontCloseImmediately":true
-    },
-    "Anti-Freeze Spray":{
-        "Category":"Medicine",
-        "Description":"Use this spray on a Doodle to cure their freeze.",
-        "Function":null,
-        "Price":400,
-        "CureStatus":true,
-        "Image":"http://www.roblox.com/asset/?id=8974962320",
-        "Target":"Party"
-    },
-    "Water Taffy":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Water-type attack. This item is consumed after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=9552699458"
-    },
-    "Weird Jelly":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to boost their attack and magic attack after they are hit with a super effective attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=8864653270",
-        "AfterDamage":null
-    },
-    "Fire Taffy":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Fire-type attack. This item is consumed after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=9553005518"
-    },
-    "Defensive Jelly":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to reduce the power of a super-effective attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=7325543224",
-        "DuringDamageCalc":null
-    },
-    "Ice Candy Cube":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Ice-type attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=9918367861",
-        "DuringDamageCalc":null
-    },
-    "Silver Level-Up Cube":{
-        "Type":"OverworldOnly",
-        "Category":"Items",
-        "Color3":null,
-        "Function":null,
-        "Description":"When this item is used on a Doodle, the Doodle levels up three times!",
-        "Image":"http://www.roblox.com/asset/?id=8951231016",
-        "LevelupItem":true,
-        "Target":"Party",
-        "DontCloseImmediately":true
-    },
-    "Worn-Out Misprint Trinket":{
-        "SpecialFunction":null,
-        "InfiniteUses":true,
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Key Items",
-        "Description":"You are more likely to meet misprinted Doodles. However, because it's worn out, the effect isn't as potent.",
-        "Image":"http://www.roblox.com/asset/?id=9205804692"
-    },
-    "Speed Token":{
-        "Color3":null,
-        "Category":"Items",
-        "Description":"Use this on a Doodle that doesn't have 6 stars to give them a bit more speed.",
-        "Function":null,
-        "Type":"OverworldOnly",
-        "Target":"Party",
-        "Image":"http://www.roblox.com/asset/?id=10715266359",
-        "LevelupItem":true
-    },
-    "Cure Jelly":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to have it cure a status effect when the Doodle is inflicted with one. This item is consumed after one use.",
-        "Image":"http://www.roblox.com/asset/?id=7325480728",
-        "OnStatus":null
-    },
-    "Poison Taffy":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Poison-type attack. This item is consumed after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=9553012344"
-    },
-    "Gold Laminate":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "ModifyDefense":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to preserve it, stopping it from evolving. If the Doodle is able to evolve, boost its Defense and Magical Defense by 50%.",
-        "NoEvolve":true,
-        "Image":"http://www.roblox.com/asset/?id=10663681148"
-    },
-    "Sickly Ooze":{
-        "StatusModifier":null,
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Whenever this Doodle would inflict Poison, inflict Diseased instead.",
-        "Image":"http://www.roblox.com/asset/?id=10615712182"
-    },
-    "Determination Headband":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle. The Doodle may survive attacks that would otherwise cause it to faint.",
-        "Image":"http://www.roblox.com/asset/?id=6832985197",
-        "DuringDamageCalc":null
-    },
-    "Small Sprout":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to improve the damage of its Plant-type attacks.",
-        "Image":"http://www.roblox.com/asset/?id=9927929408",
-        "ModifyDamage":null
-    },
-    "Bandage":{
-        "Category":"Medicine",
-        "Description":"These bandages heal a Doodle by 25 HP.",
-        "Function":null,
-        "Price":400,
-        "Image":"http://www.roblox.com/asset/?id=8736096006",
-        "Target":"Party"
-    },
-    "Spirit Candy Cube":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Spirit-type attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=9918373034",
-        "DuringDamageCalc":null
-    },
-    "Magical Banana":{
-        "BattleOnly":true,
-        "Color3":null,
-        "Category":"Items",
-        "Description":"Use this on a Doodle in battle to temporarily raise its magic attack.",
-        "Function":null,
-        "Price":1000,
-        "Image":"http://www.roblox.com/asset/?id=5723459665",
-        "Target":"Out"
-    },
-    "Melee Candy Cube":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Melee-type attack. This item is consumed after use.",
-        "Image":"http://www.roblox.com/asset/?id=9918369396",
-        "DuringDamageCalc":null
-    },
-    "Sniper Scope":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle. The holder, if they haven't taken damage yet this turn, has a boosted critical hit rate.",
-        "CritRate":null,
-        "Image":"http://www.roblox.com/asset/?id=10006059298"
-    },
-    "Food Taffy":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Food-type attack. This item is consumed after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=9552699828"
-    },
-    "Medical Capsule":{
-        "Color3":null,
-        "Category":"Capsules",
-        "BattleOnly":true,
-        "Description":"Use this on a wild Doodle in an attempt to capture it. After being captured, the Doodle's health is fully restored .",
-        "CaptureRate":1,
-        "CapsuleName":"Medical",
-        "Image":"http://www.roblox.com/asset/?id=10006436146",
-        "Target":"Capsule",
-        "AfterCaught":null,
-        "Price":1000
-    },
-    "Mythical Trinket":{
-        "SpecialFunction":null,
-        "InfiniteUses":true,
-        "Type":"OverworldOnly",
-        "Color3":null,
-        "Category":"Key Items",
-        "Description":"You are more likely to meet doodles of Legend.",
-        "Image":"http://www.roblox.com/asset/?id=9205212570"
-    },
-    "Magical Jelly":{
-        "Type":"HeldItem",
-        "Color3":null,
-        "Category":"Held Items",
-        "Description":"Give this item to a Doodle to increase the power of one of their magical attacks. This item is consumed  after use.",
-        "OffensiveDamageCalc":null,
-        "Image":"http://www.roblox.com/asset/?id=7325462966"
-    },
-    "Antidote":{
-        "Category":"Medicine",
-        "Description":"Use this spray on a Doodle to cure their poisoning.",
-        "Function":null,
-        "Price":400,
-        "CureStatus":true,
-        "Image":"http://www.roblox.com/asset/?id=8974963169",
-        "Target":"Party"
+    "Sickly Ooze": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Whenever this Doodle would inflict Poison, inflict Diseased instead.",
+        "Image": "http://www.roblox.com/asset/?id=10615712182",
+        "StatusModifier": null,
+        "Type": "HeldItem"
+    },
+    "Silver Level-Up Cube": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "When this item is used on a Doodle, the Doodle levels up three times!",
+        "DontCloseImmediately": true,
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=8951231016",
+        "LevelupItem": true,
+        "Target": "Party",
+        "Type": "OverworldOnly"
+    },
+    "Skin Trunk": {
+        "Category": "Key Items",
+        "Color3": null,
+        "Description": "This leather briefcase lets you see all your un-equipped skins.",
+        "Image": "http://www.roblox.com/asset/?id=8734085982",
+        "InfiniteUses": true,
+        "SpecialFunction": null,
+        "Type": "OverworldOnly"
+    },
+    "Small Sprout": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to improve the damage of its Plant-type attacks.",
+        "Image": "http://www.roblox.com/asset/?id=9927929408",
+        "ModifyDamage": null,
+        "Type": "HeldItem"
+    },
+    "Sniper Scope": {
+        "Category": "Held Items",
+        "Color3": null,
+        "CritRate": null,
+        "Description": "Give this item to a Doodle. The holder, if they haven't taken damage yet this turn, has a boosted critical hit rate.",
+        "Image": "http://www.roblox.com/asset/?id=10006059298",
+        "Type": "HeldItem"
+    },
+    "Spark Candy Cube": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Spark-type attack. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=9918372658",
+        "Type": "HeldItem"
+    },
+    "Spark Taffy": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Spark-type attack. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=9553013394",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
+    },
+    "Spectator Camera": {
+        "Category": "Key Items",
+        "Color3": null,
+        "Description": "This camera allows you to spectate other people's battles.",
+        "Image": "http://www.roblox.com/asset/?id=5786118191",
+        "InfiniteUses": true,
+        "SpecialFunction": null,
+        "Type": "OverworldOnly"
+    },
+    "Speed Jelly": {
+        "AfterDamage": null,
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to have them boost their speed when their health gets low. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=7325462367",
+        "Type": "HeldItem"
+    },
+    "Speed Soda": {
+        "BattleOnly": true,
+        "Category": "Items",
+        "Color3": null,
+        "Description": "Use this on a Doodle in battle to temporarily raise its speed.",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=5721610564",
+        "Price": 1000,
+        "Target": "Out"
+    },
+    "Speed Token": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "Use this on a Doodle that doesn't have 6 stars to give them a bit more speed.",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=10715266359",
+        "LevelupItem": true,
+        "Target": "Party",
+        "Type": "OverworldOnly"
+    },
+    "Spiky Thorns": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle. If the holder is hit with a contact move, the attacker will also be damaged.",
+        "Image": "http://www.roblox.com/asset/?id=10779923969",
+        "OnHit": null,
+        "Type": "HeldItem"
+    },
+    "Spirit Candy Cube": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Spirit-type attack. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=9918373034",
+        "Type": "HeldItem"
+    },
+    "Spirit Taffy": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Spirit-type attack. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=9553014795",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
+    },
+    "Starry Glasses": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle and when it gets sent out, identifies the stars the opponents have.",
+        "Image": "http://www.roblox.com/asset/?id=9443817615",
+        "SendOut": null,
+        "Type": "HeldItem"
+    },
+    "Stat Candy": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "This item lets you change the stat bonuses of a Doodle.",
+        "Image": "http://www.roblox.com/asset/?id=8734086723",
+        "Price": 1000,
+        "StatCandy": true,
+        "Target": "Party",
+        "Type": "OverworldOnly"
+    },
+    "Strange Catalyst": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "A strange, reactive item that may make a certain Doodle evolve. It doesn't seem safe to touch. ",
+        "DontCloseImmediately": true,
+        "EvolveItem": true,
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=8789994663",
+        "Target": "Party",
+        "Type": "OverworldOnly"
+    },
+    "Strange Solution": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "A strange, reactive liquid that may make a certain Doodle evolve. It's cool to the touch.",
+        "DontCloseImmediately": true,
+        "EvolveItem": true,
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=8789994917",
+        "Target": "Party",
+        "Type": "OverworldOnly"
+    },
+    "Strange Substance": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "A strange, reactive substance allows certain Doodles to evolve. It's oddly warm to the touch.",
+        "DontCloseImmediately": true,
+        "EvolveItem": true,
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=8789995239",
+        "Target": "Party",
+        "Type": "OverworldOnly"
+    },
+    "Strength Jelly": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to increase the power of one of their weak attacks. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=7325464522",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
+    },
+    "Striped Capsule": {
+        "BattleOnly": true,
+        "CapsuleName": "Striped",
+        "CaptureRate": 1.5,
+        "Category": "Capsules",
+        "Color3": null,
+        "Description": "Use this on a wild Doodle in an attempt to capture it. Has a higher chance to capture than Basic Capsules.",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=10007174600",
+        "Price": 1000,
+        "Target": "Capsule"
+    },
+    "Super Bandage": {
+        "Category": "Medicine",
+        "Description": "These bandages heal a Doodle by 60 HP.",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=9685180454",
+        "Price": 1000,
+        "Target": "Party"
+    },
+    "Swarm Snack": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "These treats may be a little too tasty. Sprinkle these around and watch the Doodles swarm!",
+        "GemPrice": 600,
+        "Image": "http://www.roblox.com/asset/?id=10778778895",
+        "NonPartyFunc": null,
+        "Type": "OverworldOnly"
+    },
+    "Tally Counter": {
+        "Category": "Key Items",
+        "Color3": null,
+        "Description": "Allows to see your current Doodle chain.",
+        "Image": "http://www.roblox.com/asset/?id=6832985555",
+        "InfiniteUses": true,
+        "SpecialFunction": null,
+        "Type": "OverworldOnly"
+    },
+    "Tint Scraper": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "Removes a Doodle's tint(s).",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=11328515165",
+        "Price": 500,
+        "Target": "Party",
+        "Type": "OverworldOnly"
+    },
+    "Training Helper": {
+        "Category": "Key Items",
+        "Color3": null,
+        "Description": "If this item is on, every Doodle in your party gets experience in each battle.",
+        "Image": "http://www.roblox.com/asset/?id=5755227686",
+        "Type": "Toggleable"
+    },
+    "Trait Badge": {
+        "Category": "Items",
+        "Color3": null,
+        "Description": "This badge allows you to swap a Doodle's trait.",
+        "Function": null,
+        "Image": "http://www.roblox.com/asset/?id=6833202115",
+        "Target": "Party",
+        "Type": "OverworldOnly"
+    },
+    "Unwashed Plushie": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle. At the end of each turn, it inflicts a disease on the user.",
+        "EndTurn": null,
+        "Image": "http://www.roblox.com/asset/?id=11599582626",
+        "Type": "HeldItem"
+    },
+    "Used Crayons": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to have it restore a little bit of its health at the end of every turn.",
+        "EndTurn": null,
+        "Image": "http://www.roblox.com/asset/?id=6852190534",
+        "Type": "HeldItem"
+    },
+    "Used Timber": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to improve the damage of its Fire-type attacks.",
+        "Image": "http://www.roblox.com/asset/?id=9136096252",
+        "ModifyDamage": null,
+        "Type": "HeldItem"
+    },
+    "Wake-up Jelly": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to wake it up when it gets put to sleep. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=7325464058",
+        "OnStatus": null,
+        "Type": "HeldItem"
+    },
+    "Water Candy Cube": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Some candy made in von Sweets' factory. Give this item to a Doodle to reduce the power of a Water-type attack. This item is consumed after use.",
+        "DuringDamageCalc": null,
+        "Image": "http://www.roblox.com/asset/?id=9918373556",
+        "Type": "HeldItem"
+    },
+    "Water Taffy": {
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "A taffy made in Von Sweets' Factory. Give this item to boost the damage of one Water-type attack. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=9552699458",
+        "OffensiveDamageCalc": null,
+        "Type": "HeldItem"
+    },
+    "Weird Jelly": {
+        "AfterDamage": null,
+        "Category": "Held Items",
+        "Color3": null,
+        "Description": "Give this item to a Doodle to boost their attack and magic attack after they are hit with a super effective attack. This item is consumed after use.",
+        "Image": "http://www.roblox.com/asset/?id=8864653270",
+        "Type": "HeldItem"
+    },
+    "Winged Capsule": {
+        "BattleOnly": true,
+        "CapsuleName": "Winged",
+        "CaptureRate": 1,
+        "CatchModifier": null,
+        "Category": "Capsules",
+        "Color3": null,
+        "Description": "Use this on a wild Doodle in an attempt to capture it. Has a higher chance to capture Doodles encountered while trick-or-treating.",
+        "Image": "http://www.roblox.com/asset/?id=11323888628",
+        "Target": "Capsule"
+    },
+    "Witch Capsule": {
+        "BattleOnly": true,
+        "CapsuleName": "Witch",
+        "CaptureRate": 1,
+        "CatchModifier": null,
+        "Category": "Capsules",
+        "Color3": null,
+        "Description": "Use this on a wild Doodle in an attempt to capture it. Has a higher chance to capture Doodles encountered while trick-or-treating.",
+        "Image": "http://www.roblox.com/asset/?id=11324048113",
+        "Target": "Capsule"
+    },
+    "Worn-Out Misprint Trinket": {
+        "Category": "Key Items",
+        "Color3": null,
+        "Description": "You are more likely to meet misprinted Doodles. However, because it's worn out, the effect isn't as potent.",
+        "Image": "http://www.roblox.com/asset/?id=9205804692",
+        "InfiniteUses": true,
+        "SpecialFunction": null,
+        "Type": "OverworldOnly"
+    },
+    "Worn-Out Mythical Trinket": {
+        "Category": "Key Items",
+        "Color3": null,
+        "Description": "You are more likely to meet doodles of Legend. However, because it's worn out, the effect isn't as potent.",
+        "Image": "http://www.roblox.com/asset/?id=9205534035",
+        "InfiniteUses": true,
+        "SpecialFunction": null,
+        "Type": "OverworldOnly"
     }
 }

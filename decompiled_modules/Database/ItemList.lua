@@ -2217,6 +2217,31 @@ return function(p1)
 			return v65 .. " has its current tint replaced with the Halloween Tint!", true;
 		end
 	};
+	u1["Christmas Tintbrush"] = {
+		Description = "Replaces a Doodle's tint with the Christmas tint.", 
+		Type = "OverworldOnly", 
+		Target = "Party", 
+		Category = "Items", 
+		Color3 = Color3.fromRGB(232, 209, 163), 
+		Image = "http://www.roblox.com/asset/?id=11768064360", 
+		Function = function(p450, p451, p452)
+			if p451 then
+				return false;
+			end;
+			local v66 = p450.Nickname or p450.Name;
+			if p450.Tint ~= 0 and p450.Tint[1] == 16 then
+				return v66 .. " already has the Christmas tint!";
+			end;
+			if game:GetService("RunService"):IsServer() then
+				p450:ChangeTint(16);
+				return true;
+			end;
+			if p450.Tint == 0 then
+				return v66 .. " now has the Christmas tint!", true;
+			end;
+			return v66 .. " has its current tint replaced with the Christmas Tint!", true;
+		end
+	};
 	u1["Tint Scraper"] = {
 		Description = "Removes a Doodle's tint(s).", 
 		Type = "OverworldOnly", 
@@ -2225,28 +2250,28 @@ return function(p1)
 		Price = 500, 
 		Color3 = Color3.fromRGB(162, 176, 226), 
 		Image = "http://www.roblox.com/asset/?id=11328515165", 
-		Function = function(p450, p451, p452)
-			if p451 then
+		Function = function(p453, p454, p455)
+			if p454 then
 				return false;
 			end;
-			local v66 = p450.Nickname or p450.Name;
-			if p450.Tint == 0 then
-				return v66 .. " has no tint!";
+			local v67 = p453.Nickname or p453.Name;
+			if p453.Tint == 0 then
+				return v67 .. " has no tint!";
 			end;
 			if game:GetService("RunService"):IsServer() then
-				p450:ChangeTint(0);
+				p453:ChangeTint(0);
 				return true;
 			end;
-			if p450.Tint == 0 then
-				return v66 .. " has no tint to remove!";
+			if p453.Tint == 0 then
+				return v67 .. " has no tint to remove!";
 			end;
-			if #p450.Tint == 1 then
-				return v66 .. "'s tint has been removed!", true;
+			if #p453.Tint == 1 then
+				return v67 .. "'s tint has been removed!", true;
 			end;
-			if not (#p450.Tint > 1) then
+			if not (#p453.Tint > 1) then
 				return;
 			end;
-			return v66 .. "'s tints have been removed!", true;
+			return v67 .. "'s tints have been removed!", true;
 		end
 	};
 	u1["Speed Token"] = {
@@ -2257,18 +2282,18 @@ return function(p1)
 		LevelupItem = true, 
 		Color3 = Color3.fromRGB(167, 215, 252), 
 		Image = "http://www.roblox.com/asset/?id=10715266359", 
-		Function = function(p453, p454, p455)
-			if p454 then
+		Function = function(p456, p457, p458)
+			if p457 then
 				return false;
 			end;
-			if p453.NStar + p453.Star >= 6 then
-				return "You can't use any more speed tokens on " .. (p453.Nickname or p453.Name) .. "!";
+			if p456.NStar + p456.Star >= 6 then
+				return "You can't use any more speed tokens on " .. (p456.Nickname or p456.Name) .. "!";
 			end;
 			if game:GetService("RunService"):IsServer() then
-				p453:SpeedToken(p455);
+				p456:SpeedToken(p458);
 				return true;
 			end;
-			return (p453.Nickname or p453.Name) .. " gained a little bit of speed!", true, "Levelup";
+			return (p456.Nickname or p456.Name) .. " gained a little bit of speed!", true, "Levelup";
 		end
 	};
 	u1["Silver Level-Up Cube"] = {
@@ -2280,17 +2305,17 @@ return function(p1)
 		DontCloseImmediately = true, 
 		Color3 = Color3.fromRGB(208, 208, 208), 
 		Image = "http://www.roblox.com/asset/?id=8951231016", 
-		Function = function(p456, p457, p458)
-			if p457 then
+		Function = function(p459, p460, p461)
+			if p460 then
 				return false;
 			end;
-			if l__Utilities__1.LevelCap(p458) < p456.Level + 3 then
-				return (p456.Nickname or p456.Name) .. " is too high level...";
+			if l__Utilities__1.LevelCap(p461) < p459.Level + 3 then
+				return (p459.Nickname or p459.Name) .. " is too high level...";
 			end;
 			if not game:GetService("RunService"):IsServer() then
-				return (p456.Nickname or p456.Name) .. " leveled up thrice!", true, "Levelup";
+				return (p459.Nickname or p459.Name) .. " leveled up thrice!", true, "Levelup";
 			end;
-			local v67 = p456:Levelup(p458, true, true, true, (p456:Levelup(p458, true, true, false, (p456:Levelup(p458, true, true, false, {})))));
+			local v68 = p459:Levelup(p461, true, true, true, (p459:Levelup(p461, true, true, false, (p459:Levelup(p461, true, true, false, {})))));
 			return true;
 		end
 	};
@@ -2303,20 +2328,20 @@ return function(p1)
 		DontCloseImmediately = true, 
 		Color3 = Color3.fromRGB(120, 120, 120), 
 		Image = "http://www.roblox.com/asset/?id=8962603595", 
-		Function = function(p459, p460, p461, p462)
-			if p460 then
+		Function = function(p462, p463, p464, p465)
+			if p463 then
 				return false;
 			end;
-			if p459.Level >= 100 then
-				return (p459.Nickname or p459.Name) .. " is already level 100!";
+			if p462.Level >= 100 then
+				return (p462.Nickname or p462.Name) .. " is already level 100!";
 			end;
 			if not game:GetService("RunService"):IsServer() then
-				return (p459.Nickname or p459.Name) .. " is now level 100!", true, "Levelup";
+				return (p462.Nickname or p462.Name) .. " is now level 100!", true, "Levelup";
 			end;
-			local v68 = {};
-			local v69 = 100 - p459.Level;
-			for v70 = 1, v69 do
-				v68 = p459:Levelup(p461, true, true, v70 == v69, v68);
+			local v69 = {};
+			local v70 = 100 - p462.Level;
+			for v71 = 1, v70 do
+				v69 = p462:Levelup(p464, true, true, v71 == v70, v69);
 			end;
 			return true;
 		end
@@ -2335,9 +2360,9 @@ return function(p1)
 		Category = "Key Items", 
 		Color3 = Color3.fromRGB(255, 255, 255), 
 		Image = "http://www.roblox.com/asset/?id=5786118191", 
-		SpecialFunction = function(p463, p464)
-			p464:Destroy();
-			p463.SpectateBattle.new({});
+		SpecialFunction = function(p466, p467)
+			p467:Destroy();
+			p466.SpectateBattle.new({});
 		end
 	};
 	u1["Skin Trunk"] = {
@@ -2347,12 +2372,12 @@ return function(p1)
 		Category = "Key Items", 
 		Color3 = Color3.fromRGB(255, 255, 255), 
 		Image = "http://www.roblox.com/asset/?id=8734085982", 
-		SpecialFunction = function(p465, p466)
-			p466.ItemUI.Visible = false;
-			p465.SkinInventory.new({
-				Bag = p466
+		SpecialFunction = function(p468, p469)
+			p469.ItemUI.Visible = false;
+			p468.SkinInventory.new({
+				Bag = p469
 			});
-			p465.Talky.Visible = false;
+			p468.Talky.Visible = false;
 		end
 	};
 	u1["Tally Counter"] = {
@@ -2362,28 +2387,28 @@ return function(p1)
 		Category = "Key Items", 
 		Color3 = Color3.fromRGB(255, 255, 255), 
 		Image = "http://www.roblox.com/asset/?id=6832985555", 
-		SpecialFunction = function(p467, p468, p469)
-			p467.Process = true;
-			local v71, v72 = p467.ClientDatabase:PDSFunc("GetChain", false);
-			local v73 = tonumber(string.format("%." .. 2 .. "f", (math.min(100, v72.Misprint * 100)))) .. "%";
-			local v74 = tonumber(string.format("%." .. 2 .. "f", (math.min(100, v72.Skin * 100)))) .. "%";
-			local v75 = tonumber(string.format("%." .. 2 .. "f", (math.min(100, v72.HT * 100)))) .. "%";
-			if v72.Prestige then
-				local v76 = "Yes";
+		SpecialFunction = function(p470, p471, p472)
+			p470.Process = true;
+			local v72, v73 = p470.ClientDatabase:PDSFunc("GetChain", false);
+			local v74 = tonumber(string.format("%." .. 2 .. "f", (math.min(100, v73.Misprint * 100)))) .. "%";
+			local v75 = tonumber(string.format("%." .. 2 .. "f", (math.min(100, v73.Skin * 100)))) .. "%";
+			local v76 = tonumber(string.format("%." .. 2 .. "f", (math.min(100, v73.HT * 100)))) .. "%";
+			if v73.Prestige then
+				local v77 = "Yes";
 			else
-				v76 = "No";
+				v77 = "No";
 			end;
-			if v71.Name then
-				if not p469 then
-					p467.Gui:SayText("", v71.Name .. " chances at #" .. v71.Number .. ": Misprint chance: " .. v73 .. ". Skin chance: " .. v74 .. ". Hidden trait chance: " .. v75 .. ". Prestige unlocked: " .. v76 .. ".", nil, true);
+			if v72.Name then
+				if not p472 then
+					p470.Gui:SayText("", v72.Name .. " chances at #" .. v72.Number .. ": Misprint chance: " .. v74 .. ". Skin chance: " .. v75 .. ". Hidden trait chance: " .. v76 .. ". Prestige unlocked: " .. v77 .. ".", nil, true);
 				else
-					p467.Gui:SayText("", v71.Name .. " chances at #" .. v71.Number .. ": Misprint chance: " .. v73 .. ". Skin chance: " .. v74 .. ". Hidden trait chance: " .. v75 .. ". Prestige unlocked: " .. v76 .. ". Chain to raise all these numbers!", nil, true);
+					p470.Gui:SayText("", v72.Name .. " chances at #" .. v72.Number .. ": Misprint chance: " .. v74 .. ". Skin chance: " .. v75 .. ". Hidden trait chance: " .. v76 .. ". Prestige unlocked: " .. v77 .. ". Chain to raise all these numbers!", nil, true);
 				end;
 			else
-				p467.Gui:SayText("", "You are currently not chaining anything.", nil, true);
+				p470.Gui:SayText("", "You are currently not chaining anything.", nil, true);
 			end;
-			p467.Talky.Visible = false;
-			p467.Process = false;
+			p470.Talky.Visible = false;
+			p470.Process = false;
 		end
 	};
 	u1["Opal Orb"] = {
@@ -2393,11 +2418,11 @@ return function(p1)
 		Category = "Key Items", 
 		Color3 = Color3.fromRGB(236, 232, 234), 
 		Image = "http://www.roblox.com/asset/?id=9423140689", 
-		SpecialFunction = function(p470, p471)
-			p470.Process = true;
-			p470.Gui:SayText("", "There's a time and place for everything.", nil, true);
-			p470.Talky.Visible = false;
-			p470.Process = false;
+		SpecialFunction = function(p473, p474)
+			p473.Process = true;
+			p473.Gui:SayText("", "There's a time and place for everything.", nil, true);
+			p473.Talky.Visible = false;
+			p473.Process = false;
 		end
 	};
 	u1["Data Chip"] = {
@@ -2407,11 +2432,11 @@ return function(p1)
 		Category = "Key Items", 
 		Color3 = Color3.fromRGB(135, 214, 191), 
 		Image = "http://www.roblox.com/asset/?id=9983897528", 
-		SpecialFunction = function(p472, p473)
-			p472.Process = true;
-			p472.Gui:SayText("", "There's a time and place for everything.", nil, true);
-			p472.Talky.Visible = false;
-			p472.Process = false;
+		SpecialFunction = function(p475, p476)
+			p475.Process = true;
+			p475.Gui:SayText("", "There's a time and place for everything.", nil, true);
+			p475.Talky.Visible = false;
+			p475.Process = false;
 		end
 	};
 	u1["Choc Rocks"] = {
@@ -2421,11 +2446,11 @@ return function(p1)
 		Category = "Key Items", 
 		Color3 = Color3.fromRGB(224, 129, 142), 
 		Image = "http://www.roblox.com/asset/?id=9989773017", 
-		SpecialFunction = function(p474, p475)
-			p474.Process = true;
-			p474.Gui:SayText("", "Better not consume this...", nil, true);
-			p474.Talky.Visible = false;
-			p474.Process = false;
+		SpecialFunction = function(p477, p478)
+			p477.Process = true;
+			p477.Gui:SayText("", "Better not consume this...", nil, true);
+			p477.Talky.Visible = false;
+			p477.Process = false;
 		end
 	};
 	u1.Memento = {
@@ -2435,11 +2460,11 @@ return function(p1)
 		Category = "Key Items", 
 		Color3 = Color3.fromRGB(255, 255, 255), 
 		Image = "http://www.roblox.com/asset/?id=7297929502", 
-		SpecialFunction = function(p476, p477)
-			p476.Process = true;
-			p476.Gui:SayText("", "There's a time and place for everything.", nil, true);
-			p476.Talky.Visible = false;
-			p476.Process = false;
+		SpecialFunction = function(p479, p480)
+			p479.Process = true;
+			p479.Gui:SayText("", "There's a time and place for everything.", nil, true);
+			p479.Talky.Visible = false;
+			p479.Process = false;
 		end
 	};
 	u1["Pristine Axe"] = {
@@ -2449,11 +2474,11 @@ return function(p1)
 		Category = "Key Items", 
 		Color3 = Color3.fromRGB(131, 160, 183), 
 		Image = "http://www.roblox.com/asset/?id=9552475405", 
-		SpecialFunction = function(p478, p479)
-			p478.Process = true;
-			p478.Gui:SayText("", "There's a time and place for everything.", nil, true);
-			p478.Talky.Visible = false;
-			p478.Process = false;
+		SpecialFunction = function(p481, p482)
+			p481.Process = true;
+			p481.Gui:SayText("", "There's a time and place for everything.", nil, true);
+			p481.Talky.Visible = false;
+			p481.Process = false;
 		end
 	};
 	u1["Money Trinket"] = {
@@ -2463,11 +2488,11 @@ return function(p1)
 		Category = "Key Items", 
 		Color3 = Color3.fromRGB(255, 255, 255), 
 		Image = "http://www.roblox.com/asset/?id=9145190706", 
-		SpecialFunction = function(p480, p481)
-			p480.Process = true;
-			p480.Gui:SayText("", "There's a time and place for everything.", nil, true);
-			p480.Talky.Visible = false;
-			p480.Process = false;
+		SpecialFunction = function(p483, p484)
+			p483.Process = true;
+			p483.Gui:SayText("", "There's a time and place for everything.", nil, true);
+			p483.Talky.Visible = false;
+			p483.Process = false;
 		end
 	};
 	u1["Magnifying Glass"] = {
@@ -2477,33 +2502,33 @@ return function(p1)
 		BattleOnly = true, 
 		Color3 = Color3.fromRGB(255, 255, 255), 
 		Image = "http://www.roblox.com/asset/?id=9137034166", 
-		LocalFunction = function(p482, p483)
-			local l__Battle__77 = p483.Battle;
-			if not l__Battle__77 then
-				p482.Process = true;
-				p482.Gui:SayText("", "There's a time and place for everything.", nil, true);
-				p482.Talky.Visible = false;
-				p482.Process = false;
+		LocalFunction = function(p485, p486)
+			local l__Battle__78 = p486.Battle;
+			if not l__Battle__78 then
+				p485.Process = true;
+				p485.Gui:SayText("", "There's a time and place for everything.", nil, true);
+				p485.Talky.Visible = false;
+				p485.Process = false;
 				return;
 			end;
-			if l__Battle__77.BattleType ~= "Wild" then
-				p482.Gui:SayText("", "You can only use the Magnifying Glass against Wild Doodles!", nil, true);
-				p482.Talky.Visible = false;
-				p482.Process = false;
+			if l__Battle__78.BattleType ~= "Wild" then
+				p485.Gui:SayText("", "You can only use the Magnifying Glass against Wild Doodles!", nil, true);
+				p485.Talky.Visible = false;
+				p485.Process = false;
 				return;
 			end;
-			p483:Hide();
-			local v78 = l__Battle__77.BattleData.Out2[1];
-			v78.OriginalOwner = "Unknown";
-			local v79 = {
+			p486:Hide();
+			local v79 = l__Battle__78.BattleData.Out2[1];
+			v79.OriginalOwner = "Unknown";
+			local v80 = {
 				NoTamer = true, 
 				NoMoveSwap = true, 
-				Battle = l__Battle__77.BattleData
+				Battle = l__Battle__78.BattleData
 			};
-			function v79.CloseFunc()
-				p482.guiholder.MainBattle.Visible = true;
+			function v80.CloseFunc()
+				p485.guiholder.MainBattle.Visible = true;
 			end;
-			p482.Stats.new(v79, v78);
+			p485.Stats.new(v80, v79);
 		end
 	};
 	u1["Hidden Trait Trinket"] = {
@@ -2513,11 +2538,11 @@ return function(p1)
 		Category = "Key Items", 
 		Color3 = Color3.fromRGB(255, 255, 255), 
 		Image = "http://www.roblox.com/asset/?id=9205213322", 
-		SpecialFunction = function(p484, p485)
-			p484.Process = true;
-			p484.Gui:SayText("", "There's a time and place for everything.", nil, true);
-			p484.Talky.Visible = false;
-			p484.Process = false;
+		SpecialFunction = function(p487, p488)
+			p487.Process = true;
+			p487.Gui:SayText("", "There's a time and place for everything.", nil, true);
+			p487.Talky.Visible = false;
+			p487.Process = false;
 		end
 	};
 	u1["Worn-Out Misprint Trinket"] = {
@@ -2527,11 +2552,11 @@ return function(p1)
 		Category = "Key Items", 
 		Color3 = Color3.fromRGB(255, 255, 255), 
 		Image = "http://www.roblox.com/asset/?id=9205804692", 
-		SpecialFunction = function(p486, p487)
-			p486.Process = true;
-			p486.Gui:SayText("", "There's a time and place for everything.", nil, true);
-			p486.Talky.Visible = false;
-			p486.Process = false;
+		SpecialFunction = function(p489, p490)
+			p489.Process = true;
+			p489.Gui:SayText("", "There's a time and place for everything.", nil, true);
+			p489.Talky.Visible = false;
+			p489.Process = false;
 		end
 	};
 	u1["Misprint Trinket"] = {
@@ -2541,11 +2566,11 @@ return function(p1)
 		Category = "Key Items", 
 		Color3 = Color3.fromRGB(255, 255, 255), 
 		Image = "http://www.roblox.com/asset/?id=8964981590", 
-		SpecialFunction = function(p488, p489)
-			p488.Process = true;
-			p488.Gui:SayText("", "There's a time and place for everything.", nil, true);
-			p488.Talky.Visible = false;
-			p488.Process = false;
+		SpecialFunction = function(p491, p492)
+			p491.Process = true;
+			p491.Gui:SayText("", "There's a time and place for everything.", nil, true);
+			p491.Talky.Visible = false;
+			p491.Process = false;
 		end
 	};
 	u1["Worn-Out Mythical Trinket"] = {
@@ -2555,11 +2580,11 @@ return function(p1)
 		Category = "Key Items", 
 		Color3 = Color3.fromRGB(255, 255, 255), 
 		Image = "http://www.roblox.com/asset/?id=9205534035", 
-		SpecialFunction = function(p490, p491)
-			p490.Process = true;
-			p490.Gui:SayText("", "There's a time and place for everything.", nil, true);
-			p490.Talky.Visible = false;
-			p490.Process = false;
+		SpecialFunction = function(p493, p494)
+			p493.Process = true;
+			p493.Gui:SayText("", "There's a time and place for everything.", nil, true);
+			p493.Talky.Visible = false;
+			p493.Process = false;
 		end
 	};
 	u1["Mythical Trinket"] = {
@@ -2569,11 +2594,11 @@ return function(p1)
 		Category = "Key Items", 
 		Color3 = Color3.fromRGB(255, 255, 255), 
 		Image = "http://www.roblox.com/asset/?id=9205212570", 
-		SpecialFunction = function(p492, p493)
-			p492.Process = true;
-			p492.Gui:SayText("", "There's a time and place for everything.", nil, true);
-			p492.Talky.Visible = false;
-			p492.Process = false;
+		SpecialFunction = function(p495, p496)
+			p495.Process = true;
+			p495.Gui:SayText("", "There's a time and place for everything.", nil, true);
+			p495.Talky.Visible = false;
+			p495.Process = false;
 		end
 	};
 	u1["Equipment Case"] = {
@@ -2583,16 +2608,16 @@ return function(p1)
 		Category = "Key Items", 
 		Color3 = Color3.fromRGB(255, 255, 255), 
 		Image = "http://www.roblox.com/asset/?id=7657468277", 
-		SpecialFunction = function(p494, p495)
-			p495.ItemUI.Visible = false;
-			p494.Equip.new({
-				Bag = p495, 
+		SpecialFunction = function(p497, p498)
+			p498.ItemUI.Visible = false;
+			p497.Equip.new({
+				Bag = p498, 
 				ForcePage = "Helmet"
 			});
-			p494.Talky.Visible = false;
+			p497.Talky.Visible = false;
 		end
 	};
-	local v80 = {
+	local v81 = {
 		Description = "You can use this item for a free Roulette spin! However, the Doodle you get will be trade-locked.", 
 		Type = "OverworldOnly", 
 		Target = "Party", 
@@ -2601,21 +2626,21 @@ return function(p1)
 		Image = "http://www.roblox.com/asset/?id=9407500752"
 	};
 	local u4 = false;
-	function v80.NonPartyFunc(p496, p497)
+	function v81.NonPartyFunc(p499, p500)
 		if u4 then
 			return;
 		end;
 		u4 = true;
-		if not p496.ClientDatabase:PDSFunc("IsMaximum") then
-			p496.Sound:Play("BasicClick", 0.8);
-			p497:Destroy();
-			p496.ClientDatabase:PDSFunc("RouletteSpin", true);
+		if not p499.ClientDatabase:PDSFunc("IsMaximum") then
+			p499.Sound:Play("BasicClick", 0.8);
+			p500:Destroy();
+			p499.ClientDatabase:PDSFunc("RouletteSpin", true);
 		else
-			p496.Gui:TextAnnouncement("You have no space for any more Doodles.");
+			p499.Gui:TextAnnouncement("You have no space for any more Doodles.");
 		end;
 		u4 = nil;
 	end;
-	u1["Roulette Ticket"] = v80;
+	u1["Roulette Ticket"] = v81;
 	u1["Greater Chain Ticket"] = {
 		Description = "You can use this item to increase your current chain by 50! If it's a Mythical Doodle, it will only increase by 5. (Not tradable)", 
 		Type = "OverworldOnly", 
@@ -2626,26 +2651,26 @@ return function(p1)
 		DevProduct = 1272071097, 
 		Color3 = Color3.fromRGB(255, 213, 111), 
 		Image = "http://www.roblox.com/asset/?id=9872855638", 
-		NonPartyFunc = function(p498, p499)
-			p498.Process = true;
-			local v81, v82, v83 = p498.ClientDatabase:PDSFunc("ChainTicketString", "greater");
-			if v82 then
-				local v84 = p498.Dialogue:SaySimpleYesNo(v81);
-				if v84 == "Yes" then
-					p498.Network:BindEvent("AddChain", function(p500)
-						p498.Network:UnbindEvent("AddChain");
-						p499:Update(nil, p500);
+		NonPartyFunc = function(p501, p502)
+			p501.Process = true;
+			local v82, v83, v84 = p501.ClientDatabase:PDSFunc("ChainTicketString", "greater");
+			if v83 then
+				local v85 = p501.Dialogue:SaySimpleYesNo(v82);
+				if v85 == "Yes" then
+					p501.Network:BindEvent("AddChain", function(p503)
+						p501.Network:UnbindEvent("AddChain");
+						p502:Update(nil, p503);
 					end);
-					p498.Network:post("AddChain", "Greater Chain Ticket");
-					p498.Gui:SayText("", v83, nil, true);
-				elseif v84 == "No" then
+					p501.Network:post("AddChain", "Greater Chain Ticket");
+					p501.Gui:SayText("", v84, nil, true);
+				elseif v85 == "No" then
 
 				end;
 			else
-				p498.Gui:SayText("", "You don't have an active chain!", nil, true);
+				p501.Gui:SayText("", "You don't have an active chain!", nil, true);
 			end;
-			p498.Talky.Visible = false;
-			p498.Process = false;
+			p501.Talky.Visible = false;
+			p501.Process = false;
 		end
 	};
 	u1["Lesser Chain Ticket"] = {
@@ -2658,26 +2683,26 @@ return function(p1)
 		DevProduct = 1272071098, 
 		Color3 = Color3.fromRGB(74, 63, 131), 
 		Image = "http://www.roblox.com/asset/?id=9872854717", 
-		NonPartyFunc = function(p501, p502)
-			p501.Process = true;
-			local v85, v86, v87 = p501.ClientDatabase:PDSFunc("ChainTicketString", "lesser");
-			if v86 then
-				local v88 = p501.Dialogue:SaySimpleYesNo(v85);
-				if v88 == "Yes" then
-					p501.Network:BindEvent("AddChain", function(p503)
-						p501.Network:UnbindEvent("AddChain");
-						p502:Update(nil, p503);
+		NonPartyFunc = function(p504, p505)
+			p504.Process = true;
+			local v86, v87, v88 = p504.ClientDatabase:PDSFunc("ChainTicketString", "lesser");
+			if v87 then
+				local v89 = p504.Dialogue:SaySimpleYesNo(v86);
+				if v89 == "Yes" then
+					p504.Network:BindEvent("AddChain", function(p506)
+						p504.Network:UnbindEvent("AddChain");
+						p505:Update(nil, p506);
 					end);
-					p501.Network:post("AddChain", "Lesser Chain Ticket");
-					p501.Gui:SayText("", v87, nil, true);
-				elseif v88 == "No" then
+					p504.Network:post("AddChain", "Lesser Chain Ticket");
+					p504.Gui:SayText("", v88, nil, true);
+				elseif v89 == "No" then
 
 				end;
 			else
-				p501.Gui:SayText("", "You don't have an active chain!", nil, true);
+				p504.Gui:SayText("", "You don't have an active chain!", nil, true);
 			end;
-			p501.Talky.Visible = false;
-			p501.Process = false;
+			p504.Talky.Visible = false;
+			p504.Process = false;
 		end
 	};
 	u1["Stat Candy"] = {
@@ -2697,28 +2722,28 @@ return function(p1)
 		Category = "Items", 
 		Color3 = Color3.fromRGB(147, 119, 98), 
 		Image = "http://www.roblox.com/asset/?id=9808177002", 
-		NonPartyFunc = function(p504, p505)
-			p504.Process = true;
+		NonPartyFunc = function(p507, p508)
+			p507.Process = true;
 			local u5 = nil;
 			l__Utilities__1.FastSpawn(function()
-				p504.Gui:SayText("", "Opening candy bag, please wait...", nil, true);
+				p507.Gui:SayText("", "Opening candy bag, please wait...", nil, true);
 				u5 = true;
 			end);
-			local v89, v90, v91 = p504.ClientDatabase:PDSFunc("OpenCandyBag");
+			local v90, v91, v92 = p507.ClientDatabase:PDSFunc("OpenCandyBag");
 			while true do
 				l__Utilities__1.Halt(0.05);
 				if u5 then
 					break;
 				end;			
 			end;
-			if v89 then
-				p505:Update(nil, v91, true);
-				p504.Gui:SayText("", "You got 1 " .. v89 .. " and 1 " .. v90 .. " from the Candy Bag!", nil, true);
+			if v90 then
+				p508:Update(nil, v92, true);
+				p507.Gui:SayText("", "You got 1 " .. v90 .. " and 1 " .. v91 .. " from the Candy Bag!", nil, true);
 			else
-				p504.Gui:SayText("", "Error.", nil, true);
+				p507.Gui:SayText("", "Error.", nil, true);
 			end;
-			p504.Talky.Visible = false;
-			p504.Process = false;
+			p507.Talky.Visible = false;
+			p507.Process = false;
 		end
 	};
 	u1["Hidden Trait Badge"] = {
@@ -2728,21 +2753,21 @@ return function(p1)
 		Category = "Items", 
 		Color3 = Color3.fromRGB(208, 208, 208), 
 		Image = "http://www.roblox.com/asset/?id=7244408626", 
-		Function = function(p506, p507, p508)
-			local v92 = nil;
-			if p507 then
+		Function = function(p509, p510, p511)
+			local v93 = nil;
+			if p510 then
 				return false;
 			end;
-			local v93 = p506.Nickname or p506.Name;
+			local v94 = p509.Nickname or p509.Name;
 			if game:GetService("RunService"):IsServer() then
-				return p506:ChangeAbility("Hidden");
+				return p509:ChangeAbility("Hidden");
 			end;
-			local v94 = p1.DoodleInfo[p506.Name];
-			v92 = v94.HiddenAbility;
-			if p506.Ability == v94.HiddenAbility then
-				return v93 .. " already has its hidden trait (" .. v92 .. ")!";
+			local v95 = p1.DoodleInfo[p509.Name];
+			v93 = v95.HiddenAbility;
+			if p509.Ability == v95.HiddenAbility then
+				return v94 .. " already has its hidden trait (" .. v93 .. ")!";
 			end;
-			return v93 .. "'s trait changed to " .. v92 .. "!", true;
+			return v94 .. "'s trait changed to " .. v93 .. "!", true;
 		end
 	};
 	u1["Trait Badge"] = {
@@ -2752,28 +2777,28 @@ return function(p1)
 		Category = "Items", 
 		Color3 = Color3.fromRGB(208, 208, 208), 
 		Image = "http://www.roblox.com/asset/?id=6833202115", 
-		Function = function(p509, p510, p511)
-			if p510 then
+		Function = function(p512, p513, p514)
+			if p513 then
 				return false;
 			end;
-			local v95 = p509.Nickname or p509.Name;
+			local v96 = p512.Nickname or p512.Name;
 			if game:GetService("RunService"):IsServer() then
-				return p509:ChangeAbility();
+				return p512:ChangeAbility();
 			end;
-			local v96 = p1.DoodleInfo[p509.Name];
-			local l__Abilities__97 = v96.Abilities;
-			local v98 = l__Abilities__97[1];
-			if #l__Abilities__97 == 1 and p509.Ability == v96.HiddenAbility then
-				v98 = l__Abilities__97[1];
+			local v97 = p1.DoodleInfo[p512.Name];
+			local l__Abilities__98 = v97.Abilities;
+			local v99 = l__Abilities__98[1];
+			if #l__Abilities__98 == 1 and p512.Ability == v97.HiddenAbility then
+				v99 = l__Abilities__98[1];
 			else
-				if #l__Abilities__97 == 1 then
-					return v95 .. " only has 1 normal trait.";
+				if #l__Abilities__98 == 1 then
+					return v96 .. " only has 1 normal trait.";
 				end;
-				if p509.Ability == l__Abilities__97[1] then
-					v98 = l__Abilities__97[2];
+				if p512.Ability == l__Abilities__98[1] then
+					v99 = l__Abilities__98[2];
 				end;
 			end;
-			return v95 .. " changed trait to " .. v98 .. "!", true;
+			return v96 .. " changed trait to " .. v99 .. "!", true;
 		end
 	};
 	u1["Friendship Ribbon"] = {

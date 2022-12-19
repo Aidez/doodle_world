@@ -90,7 +90,7 @@
         "Desc": "There's a famous saying: \"Follow the Ahket and you're eventually find treasure.\" That saying is actually not too far from the truth! Ahket usually lives in dark caves. The shininess of treasure usually attracts Ahket, who uses them as landmarks. ",
         "EquipDrops": {
             "Amulet": {
-                "14": 8
+                "14": 4
             }
         },
         "Evolve": {
@@ -493,7 +493,7 @@
         "Desc": "Azúpion typically live with their mothers until they evolve, carried on their back when traveling. Although they are naturally brightly colored, they glow under blacklight. They are equally as sour as they are venomous.",
         "EquipDrops": {
             "Helmet": {
-                "14": 8
+                "14": 4
             }
         },
         "Evolve": {
@@ -778,7 +778,7 @@
         "Desc": "It has no legs, and is unable to fly. Instead, it uses its wings to propel itself forward in a roll, aided by its round body.",
         "EquipDrops": {
             "Helmet": {
-                "3": 10
+                "3": 4
             }
         },
         "EvGain": {
@@ -867,7 +867,7 @@
         "Desc": "It has a distinct sweet smell. Bunsweet enjoy playtime with children and sharing the sweet, edible fluff at the tips of its ears. ",
         "EquipDrops": {
             "Artifact": {
-                "6": 10
+                "6": 4
             }
         },
         "EvGain": {
@@ -1029,7 +1029,7 @@
         "FrontSprite": "http://www.roblox.com/asset/?id=8830305571",
         "GenderRate": 5,
         "Height": 70,
-        "HiddenAbility": "Fortified",
+        "HiddenAbility": "Sugar Coating",
         "Num": 94,
         "Roulette": "Epic",
         "SBSprite": "http://www.roblox.com/asset/?id=8830307142",
@@ -1471,7 +1471,7 @@
         "Desc": "It has no grace, often tripping and falling, which can be attributed to its overall poor eyesight. Crystik are often shy and cowardly.",
         "EquipDrops": {
             "Helmet": {
-                "7": 12
+                "7": 10
             }
         },
         "Evolve": {
@@ -1672,7 +1672,7 @@
         "Desc": "The two that are referred to as Dramask are inseparable, and are said to be two halves of the same conscience. Dramask are often unpredictable and moody.",
         "EquipDrops": {
             "Helmet": {
-                "10": 10
+                "10": 4
             }
         },
         "EvGain": {
@@ -1998,7 +1998,7 @@
         "Desc": "It's thought to be one of the smallest species of Doodles in the world. Flittum are incredibly agile in flight, and feed on the juices they can suck from fruit and nectar from flowers.",
         "EquipDrops": {
             "Helmet": {
-                "1": 5
+                "1": 4
             }
         },
         "Evolve": {
@@ -2161,7 +2161,7 @@
         "Desc": "The skin of a Geckgoo is slick to the touch. It defends itself by secreting a poison that can cause itchiness and irritation.",
         "EquipDrops": {
             "Amulet": {
-                "4": 10
+                "4": 4
             }
         },
         "Evolve": {
@@ -2608,7 +2608,7 @@
         "Desc": "It lingers near populated areas in spite of its skittishness, seeking out sweets and handouts. Once it acquires a candy of its own, it sheds its nervous nature and becomes friendly.",
         "EquipDrops": {
             "Amulet": {
-                "9": 10
+                "9": 4
             }
         },
         "Evolve": {
@@ -2833,7 +2833,7 @@
         "Desc": "Heat radiates from its body. Oddly enough, its gooey, melty exterior has a difficult time getting dirty. It's naturally cheerful, and gets along well with other Doodles.",
         "EquipDrops": {
             "Artifact": {
-                "11": 5
+                "11": 3
             }
         },
         "Evolve": {
@@ -2904,6 +2904,46 @@
             "Melee"
         ],
         "Weight": 55
+    },
+    "Hollihare": {
+        "Abilities": [
+            "Berry Good",
+            "Sickly Sweet"
+        ],
+        "BackSprite": "http://www.roblox.com/asset/?id=11687151429",
+        "BaseExp": 120,
+        "CatchRate": 60,
+        "Desc": "Many Doodles are attracted to the berries around Hollihare's neck. The berries are so addicting that many Doodles abandon their tamers to follow Hollihare around.",
+        "EquipDrops": {
+            "Amulet": {
+                "15": 12
+            }
+        },
+        "ExceptionHeight": 30,
+        "ExpRate": "MedFast",
+        "ForcedStars": 3,
+        "FrontSprite": "http://www.roblox.com/asset/?id=11687149730",
+        "GenderRate": 500,
+        "Height": 19,
+        "HiddenAbility": "Seed Defense",
+        "Num": 282,
+        "Roulette": "Epic",
+        "SBSprite": "http://www.roblox.com/asset/?id=11687152563",
+        "SFSprite": "http://www.roblox.com/asset/?id=11687150682",
+        "Size": 1,
+        "Stats": {
+            "atk": 65,
+            "def": 72,
+            "hp": 72,
+            "matk": 82,
+            "mdef": 112,
+            "spe": 72
+        },
+        "Type": [
+            "Ice",
+            "Plant"
+        ],
+        "Weight": 21
     },
     "Horbeast": {
         "Abilities": [
@@ -3098,7 +3138,7 @@
     },
     "Jelluminous": {
         "Abilities": [
-            "Electrocute",
+            "Entangle",
             "Incandescent"
         ],
         "BackSprite": "http://www.roblox.com/asset/?id=5723687918",
@@ -3121,8 +3161,8 @@
         "SFSprite": "http://www.roblox.com/asset/?id=5723684924",
         "Size": 1,
         "Stats": {
-            "atk": 76,
-            "def": 65,
+            "atk": 56,
+            "def": 85,
             "hp": 84,
             "matk": 108,
             "mdef": 95,
@@ -3669,7 +3709,7 @@
     },
     "Lilbulb": {
         "Abilities": [
-            "Electrocute",
+            "Entangle",
             "Incandescent"
         ],
         "BackSprite": "http://www.roblox.com/asset/?id=5723626535",
@@ -3698,8 +3738,8 @@
         "SFSprite": "http://www.roblox.com/asset/?id=5723622657",
         "Size": 0.88,
         "Stats": {
-            "atk": 46,
-            "def": 45,
+            "atk": 36,
+            "def": 55,
             "hp": 55,
             "matk": 78,
             "mdef": 65,
@@ -3989,11 +4029,11 @@
         "SFSprite": "http://www.roblox.com/asset/?id=8780820035",
         "Size": 1.1,
         "Stats": {
-            "atk": 80,
-            "def": 85,
-            "hp": 95,
-            "matk": 120,
-            "mdef": 80,
+            "atk": 70,
+            "def": 80,
+            "hp": 85,
+            "matk": 150,
+            "mdef": 75,
             "spe": 35
         },
         "Type": [
@@ -4013,7 +4053,7 @@
         "Desc": "The mask in which it wears doesn't come off. It is said that if you were to view a Maskrow's true face, it would send your soul to the void.",
         "EquipDrops": {
             "Artifact": {
-                "10": 10
+                "10": 4
             }
         },
         "Evolve": {
@@ -4441,7 +4481,7 @@
         "Desc": "It has an affinity for biting things, but not to worry: it has no teeth, and is unlikely to cause harm.",
         "EquipDrops": {
             "Artifact": {
-                "11": 10
+                "11": 5
             }
         },
         "Evolve": {
@@ -4754,7 +4794,7 @@
         "Desc": "Partybug spend the majority of their lives learning how to do basic party tricks and simple magic. They are so dedicated to their craft, that their donning of wizard clothing became an evolutionary trait.",
         "EquipDrops": {
             "Artifact": {
-                "1": 10
+                "1": 4
             }
         },
         "EvGain": {
@@ -4951,7 +4991,7 @@
         "BackSprite": "http://www.roblox.com/asset/?id=11708871655",
         "BaseExp": 222,
         "CatchRate": 30,
-        "Desc": "Potterfiend traded its innocence for power. It regrets making the trade every day, and wishes things could go back to how they were. No such luck, Potfiend.",
+        "Desc": "Potterfiend traded its innocence for power. It regrets making the trade every day, and wishes things could go back to how they were. No such luck, Potterfiend.",
         "ExpRate": "MedFast",
         "ForcedStars": 1,
         "FrontSprite": "http://www.roblox.com/asset/?id=11708871348",
@@ -5105,7 +5145,7 @@
         "Desc": "An ancient Doodle by all known accounts. In recent years, DoodleCo made an agreement with it, and it now stands guard over DoodleCo Academy. ",
         "EquipDrops": {
             "Artifact": {
-                "14": 2
+                "14": 1
             }
         },
         "ExceptionHeight": 90,
@@ -5145,7 +5185,7 @@
         "Desc": "Riffrat live in swarms under the command of Henchum. They strive to be skillful thieves, but have a tendency to fall short, \"stealing\" things like fallen change and loose wrappers to hoard in their nests.",
         "EquipDrops": {
             "Artifact": {
-                "3": 10
+                "3": 4
             }
         },
         "Evolve": {
@@ -5316,7 +5356,7 @@
         "Desc": "When angered, its thick and fluffy fur flares up with flames. It takes advantage of this to intimidate and harm larger foes. It rarely backs down from a fight.",
         "EquipDrops": {
             "Helmet": {
-                "13": 8
+                "13": 4
             }
         },
         "EvGain": {
@@ -5376,9 +5416,9 @@
         "Stats": {
             "atk": 85,
             "def": 90,
-            "hp": 75,
+            "hp": 85,
             "matk": 115,
-            "mdef": 80,
+            "mdef": 95,
             "spe": 25
         },
         "Type": [
@@ -5689,7 +5729,7 @@
         "Desc": "When raised together in a group, Shmellow will often huddle into a near seamless mass when they sleep. This is both for comfort and defense.",
         "EquipDrops": {
             "Helmet": {
-                "12": 8
+                "12": 6
             }
         },
         "Evolve": {
@@ -5946,7 +5986,7 @@
         "Roulette": "Common",
         "SBSprite": "http://www.roblox.com/asset/?id=10850712178",
         "SFSprite": "http://www.roblox.com/asset/?id=10850711570",
-        "Size": 1.1,
+        "Size": 0.85,
         "Stats": {
             "atk": 15,
             "def": 65,
@@ -6236,7 +6276,7 @@
         "Desc": "It's capable of leaping high into the air with the aid of its long, slender legs. It often perches on low tree branches, scouting and listening for danger.",
         "EquipDrops": {
             "Helmet": {
-                "5": 5
+                "5": 3
             }
         },
         "EvGain": {
@@ -6315,7 +6355,7 @@
         "Desc": "Squed is a lonely doodle, often avoided by almost every other, including themselves. It is probably because of their huge forehead which is intimidating to most other Doodles.",
         "EquipDrops": {
             "Amulet": {
-                "6": 10
+                "6": 4
             }
         },
         "EvGain": {
@@ -6657,7 +6697,7 @@
         "ForcedStars": 2,
         "FrontSprite": "http://www.roblox.com/asset/?id=11688548740",
         "GenderRate": "Unknown",
-        "Height": 22,
+        "Height": 63,
         "HiddenAbility": "Crude",
         "Num": 182,
         "Roulette": "Epic",
@@ -6676,7 +6716,7 @@
             "Beast",
             "Earth"
         ],
-        "Weight": 45
+        "Weight": 301
     },
     "Terruma": {
         "Abilities": [
@@ -6935,7 +6975,7 @@
         "Stats": {
             "atk": 115,
             "def": 70,
-            "hp": 89,
+            "hp": 95,
             "matk": 87,
             "mdef": 83,
             "spe": 66

@@ -1268,6 +1268,7 @@
             },
             {
                 "BackSprite": "http://www.roblox.com/asset/?id=11714012778",
+                "Discontinued": true,
                 "FrontSprite": "http://www.roblox.com/asset/?id=11714012999",
                 "Name": "Plushie",
                 "SBSprite": "http://www.roblox.com/asset/?id=11714012670",
@@ -1374,6 +1375,7 @@
                     1463686083,
                     988780182
                 ],
+                "Discontinued": true,
                 "FrontSprite": "http://www.roblox.com/asset/?id=11714012569",
                 "Name": "Plushie",
                 "SBSprite": "http://www.roblox.com/asset/?id=11714012192",
@@ -1834,6 +1836,17 @@
                 "Name": "Ice Cream Sandwich",
                 "SBSprite": "http://www.roblox.com/asset/?id=11453403467",
                 "SFSprite": "http://www.roblox.com/asset/?id=11453403726"
+            },
+            {
+                "BackSprite": "http://www.roblox.com/asset/?id=11764555546",
+                "Contributors": [
+                    23344637,
+                    311368116
+                ],
+                "FrontSprite": "http://www.roblox.com/asset/?id=11764552987",
+                "Name": "Winter",
+                "SBSprite": "http://www.roblox.com/asset/?id=11764556670",
+                "SFSprite": "http://www.roblox.com/asset/?id=11764554939"
             }
         ],
         "Cerebopod": [
@@ -2440,6 +2453,14 @@
                 "SFSprite": "http://www.roblox.com/asset/?id=11661969255"
             },
             {
+                "BackSprite": "http://www.roblox.com/asset/?id=11790998290",
+                "FrontSprite": "http://www.roblox.com/asset/?id=11791004680",
+                "Name": "Winter",
+                "SBSprite": "http://www.roblox.com/asset/?id=11790998046",
+                "SFSprite": "http://www.roblox.com/asset/?id=11790998557",
+                "Winter": true
+            },
+            {
                 "BackSprite": "http://www.roblox.com/asset/?id=9434000286",
                 "FrontSprite": "http://www.roblox.com/asset/?id=9433698537",
                 "Name": "Prestige",
@@ -2547,6 +2568,14 @@
                 "Name": "Berry Bush",
                 "SBSprite": "http://www.roblox.com/asset/?id=11695330655",
                 "SFSprite": "http://www.roblox.com/asset/?id=11695357851"
+            },
+            {
+                "BackSprite": "http://www.roblox.com/asset/?id=11767957616",
+                "FrontSprite": "http://www.roblox.com/asset/?id=11767957842",
+                "Name": "Kirin",
+                "Premium": true,
+                "SBSprite": "http://www.roblox.com/asset/?id=11767957505",
+                "SFSprite": "http://www.roblox.com/asset/?id=11767957774"
             }
         ],
         "Djinneko": [
@@ -2900,6 +2929,13 @@
                 "SFSprite": "http://www.roblox.com/asset/?id=11523352682"
             },
             {
+                "BackSprite": "http://www.roblox.com/asset/?id=11783725833",
+                "FrontSprite": "http://www.roblox.com/asset/?id=11783725637",
+                "Name": "Dino",
+                "SBSprite": "http://www.roblox.com/asset/?id=11783725941",
+                "SFSprite": "http://www.roblox.com/asset/?id=11783725737"
+            },
+            {
                 "BackSprite": "http://www.roblox.com/asset/?id=9698752509",
                 "FrontSprite": "http://www.roblox.com/asset/?id=9698343212",
                 "Name": "Music",
@@ -2950,6 +2986,13 @@
                 "Premium": true,
                 "SBSprite": "http://www.roblox.com/asset/?id=11523349937",
                 "SFSprite": "http://www.roblox.com/asset/?id=11523350186"
+            },
+            {
+                "BackSprite": "http://www.roblox.com/asset/?id=11783726264",
+                "FrontSprite": "http://www.roblox.com/asset/?id=11783726041",
+                "Name": "Dino",
+                "SBSprite": "http://www.roblox.com/asset/?id=11783726422",
+                "SFSprite": "http://www.roblox.com/asset/?id=11783726121"
             },
             {
                 "BackSprite": "http://www.roblox.com/asset/?id=9698326741",
@@ -3063,6 +3106,13 @@
                 "SFSprite": "http://www.roblox.com/asset/?id=11523351037"
             },
             {
+                "BackSprite": "http://www.roblox.com/asset/?id=11783725440",
+                "FrontSprite": "http://www.roblox.com/asset/?id=11783725245",
+                "Name": "Dino",
+                "SBSprite": "http://www.roblox.com/asset/?id=11783725544",
+                "SFSprite": "http://www.roblox.com/asset/?id=11783725310"
+            },
+            {
                 "BackSprite": "http://www.roblox.com/asset/?id=9698303184",
                 "FrontSprite": "http://www.roblox.com/asset/?id=9698296358",
                 "Name": "Music",
@@ -3113,6 +3163,7 @@
                 "BackSprite": "http://www.roblox.com/asset/?id=11725713037",
                 "FrontSprite": "http://www.roblox.com/asset/?id=11725713195",
                 "Name": "Jungle Dragon",
+                "Premium": true,
                 "SBSprite": "http://www.roblox.com/asset/?id=11725712965",
                 "SFSprite": "http://www.roblox.com/asset/?id=11725713115"
             },
@@ -3451,6 +3502,14 @@
                 "SFSprite": "http://www.roblox.com/asset/?id=11661968589"
             },
             {
+                "BackSprite": "http://www.roblox.com/asset/?id=11790881078",
+                "FrontSprite": "http://www.roblox.com/asset/?id=11790881577",
+                "Name": "Winter",
+                "SBSprite": "http://www.roblox.com/asset/?id=11790880867",
+                "SFSprite": "http://www.roblox.com/asset/?id=11790881375",
+                "Winter": true
+            },
+            {
                 "BackSprite": "http://www.roblox.com/asset/?id=9434003039",
                 "FrontSprite": "http://www.roblox.com/asset/?id=9433705958",
                 "Name": "Prestige",
@@ -3575,6 +3634,19 @@
                 "Name": "Berry Bush",
                 "SBSprite": "http://www.roblox.com/asset/?id=11695330240",
                 "SFSprite": "http://www.roblox.com/asset/?id=11695330437"
+            },
+            {
+                "BackSprite": "http://www.roblox.com/asset/?id=11767957258",
+                "Contributors": [
+                    1050797054,
+                    1352768800,
+                    88978820
+                ],
+                "FrontSprite": "http://www.roblox.com/asset/?id=11767957455",
+                "Name": "Kirin",
+                "Premium": true,
+                "SBSprite": "http://www.roblox.com/asset/?id=11767957151",
+                "SFSprite": "http://www.roblox.com/asset/?id=11767957337"
             }
         ],
         "Glimmew": [
@@ -3613,6 +3685,13 @@
                 "Name": "Desert Wanderer",
                 "SBSprite": "http://www.roblox.com/asset/?id=11604683938",
                 "SFSprite": "http://www.roblox.com/asset/?id=11604682476"
+            },
+            {
+                "BackSprite": "http://www.roblox.com/asset/?id=11784779803",
+                "FrontSprite": "http://www.roblox.com/asset/?id=11784780105",
+                "Name": "Galactic",
+                "SBSprite": "http://www.roblox.com/asset/?id=11784779675",
+                "SFSprite": "http://www.roblox.com/asset/?id=11784779948"
             },
             {
                 "BackSprite": "http://www.roblox.com/asset/?id=9122992703",
@@ -3681,6 +3760,13 @@
                 "SFSprite": "http://www.roblox.com/asset/?id=11604686185"
             },
             {
+                "BackSprite": "http://www.roblox.com/asset/?id=11784779194",
+                "FrontSprite": "http://www.roblox.com/asset/?id=11784779523",
+                "Name": "Galactic",
+                "SBSprite": "http://www.roblox.com/asset/?id=11784779070",
+                "SFSprite": "http://www.roblox.com/asset/?id=11784779335"
+            },
+            {
                 "BackSprite": "http://www.roblox.com/asset/?id=9123021429",
                 "FrontSprite": "http://www.roblox.com/asset/?id=9123019850",
                 "Name": "Socialight",
@@ -3745,6 +3831,18 @@
                 "Name": "Simple",
                 "SBSprite": "http://www.roblox.com/asset/?id=11546285264",
                 "SFSprite": "http://www.roblox.com/asset/?id=11546283626"
+            },
+            {
+                "BackSprite": "http://www.roblox.com/asset/?id=11781837415",
+                "Contributors": [
+                    1440775701,
+                    23344637
+                ],
+                "FrontSprite": "http://www.roblox.com/asset/?id=11781837723",
+                "Name": "Winter",
+                "SBSprite": "http://www.roblox.com/asset/?id=11781837297",
+                "SFSprite": "http://www.roblox.com/asset/?id=11781837560",
+                "Winter": true
             },
             {
                 "BackSprite": "http://www.roblox.com/asset/?id=8717755671",
@@ -4013,6 +4111,18 @@
                 "Name": "WarmConal007",
                 "SBSprite": "http://www.roblox.com/asset/?id=11462328196",
                 "SFSprite": "http://www.roblox.com/asset/?id=11462328376"
+            },
+            {
+                "BackSprite": "http://www.roblox.com/asset/?id=11767955644",
+                "Contributors": [
+                    1134221344,
+                    197826731
+                ],
+                "FrontSprite": "http://www.roblox.com/asset/?id=11767955783",
+                "Name": "Winter",
+                "SBSprite": "http://www.roblox.com/asset/?id=11767955587",
+                "SFSprite": "http://www.roblox.com/asset/?id=11767955704",
+                "Winter": true
             },
             {
                 "BackSprite": "http://www.roblox.com/asset/?id=9239927810",
@@ -4658,6 +4768,15 @@
                 "SFSprite": "http://www.roblox.com/asset/?id=9867602171"
             }
         ],
+        "Hollihare": [
+            {
+                "BackSprite": "http://www.roblox.com/asset/?id=11695328955",
+                "FrontSprite": "http://www.roblox.com/asset/?id=11695329249",
+                "Name": "Prestige",
+                "SBSprite": "http://www.roblox.com/asset/?id=11695328804",
+                "SFSprite": "http://www.roblox.com/asset/?id=11695329156"
+            }
+        ],
         "Horbeast": [
             {
                 "BackSprite": "http://www.roblox.com/asset/?id=10030881287",
@@ -4805,6 +4924,7 @@
                 ],
                 "FrontSprite": "http://www.roblox.com/asset/?id=11725712859",
                 "Name": "Jungle Dragon",
+                "Premium": true,
                 "SBSprite": "http://www.roblox.com/asset/?id=11725712420",
                 "SFSprite": "http://www.roblox.com/asset/?id=11725712702"
             },
@@ -5153,6 +5273,17 @@
                 "Name": "Toast",
                 "SBSprite": "http://www.roblox.com/asset/?id=11666790061",
                 "SFSprite": "http://www.roblox.com/asset/?id=11666788515"
+            },
+            {
+                "BackSprite": "http://www.roblox.com/asset/?id=11781838115",
+                "Contributors": [
+                    1050797054,
+                    176030628
+                ],
+                "FrontSprite": "http://www.roblox.com/asset/?id=11781838326",
+                "Name": "Taiyaki",
+                "SBSprite": "http://www.roblox.com/asset/?id=11781837958",
+                "SFSprite": "http://www.roblox.com/asset/?id=11781838219"
             }
         ],
         "Junipyro": [
@@ -5760,6 +5891,13 @@
                 "SFSprite": "http://www.roblox.com/asset/?id=11506980785"
             },
             {
+                "BackSprite": "http://www.roblox.com/asset/?id=11749397232",
+                "FrontSprite": "http://www.roblox.com/asset/?id=11749397335",
+                "Name": "Magical Girl",
+                "SBSprite": "http://www.roblox.com/asset/?id=11749397183",
+                "SFSprite": "http://www.roblox.com/asset/?id=11749397281"
+            },
+            {
                 "BackSprite": "http://www.roblox.com/asset/?id=9217369768",
                 "FrontSprite": "http://www.roblox.com/asset/?id=9217367631",
                 "Name": "Scribbled",
@@ -6290,6 +6428,17 @@
                 "SFSprite": "http://www.roblox.com/asset/?id=11604689614"
             },
             {
+                "BackSprite": "http://www.roblox.com/asset/?id=11784778687",
+                "Contributors": [
+                    199977384,
+                    988780182
+                ],
+                "FrontSprite": "http://www.roblox.com/asset/?id=11784778943",
+                "Name": "Galactic",
+                "SBSprite": "http://www.roblox.com/asset/?id=11784778562",
+                "SFSprite": "http://www.roblox.com/asset/?id=11784778808"
+            },
+            {
                 "BackSprite": "http://www.roblox.com/asset/?id=9123046832",
                 "FrontSprite": "http://www.roblox.com/asset/?id=9123045157",
                 "Name": "Socialight",
@@ -6636,6 +6785,14 @@
                 "Name": "Ice Cream Sandwich",
                 "SBSprite": "http://www.roblox.com/asset/?id=11453404006",
                 "SFSprite": "http://www.roblox.com/asset/?id=11453404194"
+            },
+            {
+                "BackSprite": "http://www.roblox.com/asset/?id=11764549798",
+                "FrontSprite": "http://www.roblox.com/asset/?id=11764547864",
+                "Name": "Winter",
+                "SBSprite": "http://www.roblox.com/asset/?id=11764552383",
+                "SFSprite": "http://www.roblox.com/asset/?id=11764548770",
+                "Winter": true
             }
         ],
         "Maskomedy": [
@@ -7565,8 +7722,9 @@
                     1352768800,
                     2001161546
                 ],
+                "Discontinued": true,
                 "FrontSprite": "http://www.roblox.com/asset/?id=10643062233",
-                "Name": "Tankman",
+                "Name": "Army",
                 "SBSprite": "http://www.roblox.com/asset/?id=10643066932",
                 "SFSprite": "http://www.roblox.com/asset/?id=10643065959"
             },
@@ -7937,6 +8095,13 @@
                 "SFSprite": "http://www.roblox.com/asset/?id=11523349383"
             },
             {
+                "BackSprite": "http://www.roblox.com/asset/?id=11783726739",
+                "FrontSprite": "http://www.roblox.com/asset/?id=11783726534",
+                "Name": "Dino",
+                "SBSprite": "http://www.roblox.com/asset/?id=11783726856",
+                "SFSprite": "http://www.roblox.com/asset/?id=11783726624"
+            },
+            {
                 "BackSprite": "http://www.roblox.com/asset/?id=9698373602",
                 "FrontSprite": "http://www.roblox.com/asset/?id=9698758361",
                 "Name": "Music",
@@ -8087,6 +8252,13 @@
                 "Name": "Wizard",
                 "SBSprite": "http://www.roblox.com/asset/?id=11601687868",
                 "SFSprite": "http://www.roblox.com/asset/?id=11601688124"
+            },
+            {
+                "BackSprite": "http://www.roblox.com/asset/?id=11784782532",
+                "FrontSprite": "http://www.roblox.com/asset/?id=11784782774",
+                "Name": "Dapper",
+                "SBSprite": "http://www.roblox.com/asset/?id=11784782340",
+                "SFSprite": "http://www.roblox.com/asset/?id=11784782648"
             }
         ],
         "Partybug": [
@@ -9049,6 +9221,17 @@
                 "Name": "Navy Captain",
                 "SBSprite": "http://www.roblox.com/asset/?id=11727517544",
                 "SFSprite": "http://www.roblox.com/asset/?id=11727517171"
+            },
+            {
+                "BackSprite": "http://www.roblox.com/asset/?id=11784780386",
+                "Contributors": [
+                    1038551249,
+                    988780182
+                ],
+                "FrontSprite": "http://www.roblox.com/asset/?id=11784780608",
+                "Name": "Dapper",
+                "SBSprite": "http://www.roblox.com/asset/?id=11784780287",
+                "SFSprite": "http://www.roblox.com/asset/?id=11784780497"
             }
         ],
         "Shadark": [
@@ -9160,6 +9343,13 @@
                 "Name": "Navy Captain",
                 "SBSprite": "http://www.roblox.com/asset/?id=11727516815",
                 "SFSprite": "http://www.roblox.com/asset/?id=11727516378"
+            },
+            {
+                "BackSprite": "http://www.roblox.com/asset/?id=11784780849",
+                "FrontSprite": "http://www.roblox.com/asset/?id=11784780981",
+                "Name": "Dapper",
+                "SBSprite": "http://www.roblox.com/asset/?id=11784780720",
+                "SFSprite": "http://www.roblox.com/asset/?id=11784781096"
             }
         ],
         "Sharpup": [
@@ -9183,6 +9373,13 @@
                 "Name": "Navy Captain",
                 "SBSprite": "http://www.roblox.com/asset/?id=11727516032",
                 "SFSprite": "http://www.roblox.com/asset/?id=11727515615"
+            },
+            {
+                "BackSprite": "http://www.roblox.com/asset/?id=11784781302",
+                "FrontSprite": "http://www.roblox.com/asset/?id=11784781563",
+                "Name": "Dapper",
+                "SBSprite": "http://www.roblox.com/asset/?id=11784781183",
+                "SFSprite": "http://www.roblox.com/asset/?id=11784781440"
             }
         ],
         "Shelldo": [
@@ -9324,6 +9521,14 @@
                 "Name": "Ice Cream Sandwich",
                 "SBSprite": "http://www.roblox.com/asset/?id=11453404358",
                 "SFSprite": "http://www.roblox.com/asset/?id=11453404659"
+            },
+            {
+                "BackSprite": "http://www.roblox.com/asset/?id=11764546577",
+                "FrontSprite": "http://www.roblox.com/asset/?id=11764545695",
+                "Name": "Winter",
+                "SBSprite": "http://www.roblox.com/asset/?id=11764547217",
+                "SFSprite": "http://www.roblox.com/asset/?id=11764546170",
+                "Winter": true
             }
         ],
         "Shyce": [
@@ -9933,6 +10138,18 @@
                 "SFSprite": "http://www.roblox.com/asset/?id=11661967782"
             },
             {
+                "BackSprite": "http://www.roblox.com/asset/?id=11696742820",
+                "Contributors": [
+                    127033249,
+                    23344637
+                ],
+                "FrontSprite": "http://www.roblox.com/asset/?id=11790880736",
+                "Name": "Winter",
+                "SBSprite": "http://www.roblox.com/asset/?id=11696743228",
+                "SFSprite": "http://www.roblox.com/asset/?id=11791003953",
+                "Winter": true
+            },
+            {
                 "BackSprite": "http://www.roblox.com/asset/?id=9433714749",
                 "FrontSprite": "http://www.roblox.com/asset/?id=9433711496",
                 "Name": "Prestige",
@@ -9993,6 +10210,13 @@
                 "SFSprite": "http://www.roblox.com/asset/?id=11506980385"
             },
             {
+                "BackSprite": "http://www.roblox.com/asset/?id=11749422695",
+                "FrontSprite": "http://www.roblox.com/asset/?id=11749397094",
+                "Name": "Magical Girl",
+                "SBSprite": "http://www.roblox.com/asset/?id=11749396896",
+                "SFSprite": "http://www.roblox.com/asset/?id=11749397021"
+            },
+            {
                 "BackSprite": "http://www.roblox.com/asset/?id=9217373778",
                 "FrontSprite": "http://www.roblox.com/asset/?id=9217372049",
                 "Name": "Scribbled",
@@ -10028,7 +10252,7 @@
                 "BackSprite": "http://www.roblox.com/asset/?id=10060363946",
                 "FrontSprite": "http://www.roblox.com/asset/?id=10060362927",
                 "Name": "Bee",
-                "SBSprite": "http://www.roblox.com/asset/?id=10060363946",
+                "SBSprite": "http://www.roblox.com/asset/?id=11781910659",
                 "SFSprite": "http://www.roblox.com/asset/?id=10060459205"
             },
             {
@@ -10073,6 +10297,18 @@
                 "Name": "Prestige",
                 "SBSprite": "http://www.roblox.com/asset/?id=11506979626",
                 "SFSprite": "http://www.roblox.com/asset/?id=11506980000"
+            },
+            {
+                "BackSprite": "http://www.roblox.com/asset/?id=11749396699",
+                "Contributors": [
+                    135784877,
+                    23344637,
+                    898725996
+                ],
+                "FrontSprite": "http://www.roblox.com/asset/?id=11749396824",
+                "Name": "Magical Girl",
+                "SBSprite": "http://www.roblox.com/asset/?id=11749396607",
+                "SFSprite": "http://www.roblox.com/asset/?id=11749396771"
             },
             {
                 "BackSprite": "http://www.roblox.com/asset/?id=9217377829",
@@ -10362,8 +10598,9 @@
             },
             {
                 "BackSprite": "http://www.roblox.com/asset/?id=10643038402",
+                "Discontinued": true,
                 "FrontSprite": "http://www.roblox.com/asset/?id=10643037752",
-                "Name": "Tankman",
+                "Name": "Army",
                 "SBSprite": "http://www.roblox.com/asset/?id=10643038633",
                 "SFSprite": "http://www.roblox.com/asset/?id=10643038031"
             },
@@ -11425,6 +11662,17 @@
                 "Name": "Wizard",
                 "SBSprite": "http://www.roblox.com/asset/?id=11601687201",
                 "SFSprite": "http://www.roblox.com/asset/?id=11601702492"
+            },
+            {
+                "BackSprite": "http://www.roblox.com/asset/?id=11784781851",
+                "Contributors": [
+                    1444802540,
+                    988780182
+                ],
+                "FrontSprite": "http://www.roblox.com/asset/?id=11784782146",
+                "Name": "Dapper",
+                "SBSprite": "http://www.roblox.com/asset/?id=11784781704",
+                "SFSprite": "http://www.roblox.com/asset/?id=11784781980"
             }
         ],
         "Tufflaze": [
@@ -11988,6 +12236,18 @@
                 "SFSprite": "http://www.roblox.com/asset/?id=11523349051"
             },
             {
+                "BackSprite": "http://www.roblox.com/asset/?id=11783727164",
+                "Contributors": [
+                    1050797054,
+                    135784877,
+                    585839328
+                ],
+                "FrontSprite": "http://www.roblox.com/asset/?id=11783726937",
+                "Name": "Dino",
+                "SBSprite": "http://www.roblox.com/asset/?id=11783727247",
+                "SFSprite": "http://www.roblox.com/asset/?id=11783727029"
+            },
+            {
                 "BackSprite": "http://www.roblox.com/asset/?id=9698387431",
                 "FrontSprite": "http://www.roblox.com/asset/?id=9698383748",
                 "Name": "Music",
@@ -12343,7 +12603,7 @@
                 "FrontSprite": "http://www.roblox.com/asset/?id=10859267090",
                 "Name": "Malevolent",
                 "SBSprite": "http://www.roblox.com/asset/?id=10859267950",
-                "SFSprite": "http://www.roblox.com/asset/?id=10859267329"
+                "SFSprite": "http://www.roblox.com/asset/?id=11725712359"
             },
             {
                 "BackSprite": "http://www.roblox.com/asset/?id=11341947758",
@@ -12509,6 +12769,14 @@
                 "Name": "WarmConal007",
                 "SBSprite": "http://www.roblox.com/asset/?id=11462328596",
                 "SFSprite": "http://www.roblox.com/asset/?id=11462328755"
+            },
+            {
+                "BackSprite": "http://www.roblox.com/asset/?id=11767955912",
+                "FrontSprite": "http://www.roblox.com/asset/?id=11767956083",
+                "Name": "Winter",
+                "SBSprite": "http://www.roblox.com/asset/?id=11767955841",
+                "SFSprite": "http://www.roblox.com/asset/?id=11767956023",
+                "Winter": true
             },
             {
                 "BackSprite": "http://www.roblox.com/asset/?id=9239926228",

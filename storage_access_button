@@ -1,0 +1,57 @@
+if game.GameId == 0 then
+    game:GetPropertyChangedSignal("GameId"):Wait()
+end
+if game.GameId ~= 1775919872 then
+    return
+end
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+local Players = game:GetService("Players")
+Player = Players.LocalPlayer
+if Player == nil then
+    Players:GetPropertyChangedSignal("LocalPlayer"):Wait()
+    Player = Players.LocalPlayer
+end
+local Packer = Player:WaitForChild("Packer")
+local Client = require(Packer:WaitForChild("Client"))
+local OpenPC = Instance.new("ImageButton",Player.PlayerGui:WaitForChild("MainGui"))
+local CurrentPC
+OpenPC.Name = "OpenPC"
+OpenPC.AnchorPoint = Vector2.new(1,1)
+OpenPC.Position = UDim2.new(1, 0, 1, -60)
+OpenPC.Size = UDim2.new(0, 50, 0, 50)
+OpenPC.Image = "rbxassetid://2691049013"
+OpenPC.ZIndex = 100
+OpenPC.BackgroundTransparency = 1
+OpenPC.Active = false
+OpenPC.MouseEnter:Connect(function()
+    OpenPC.ImageColor3 = Color3.new(0.5,0.5,0.5)
+end)
+OpenPC.MouseLeave:Connect(function()
+    OpenPC.ImageColor3 = Color3.new(1,1,1)
+end)
+OpenPC.MouseButton1Click:Connect(function()
+    if Player.PlayerGui.MainGui.PCUI.Visible == false then
+        CurrentPC = Client.PC.new()
+        repeat wait() until CurrentPC.PCUI ~= nil
+        local Box = CurrentPC.PCUI:WaitForChild("Box")
+        local Background = Box:WaitForChild("Background")
+        local TopBar = Background:WaitForChild("TopBar")
+        local Close = TopBar:WaitForChild("Close")
+        Close.MouseButton1Click:Connect(function()
+            Client.Menu.DisableBlur()
+            Client.Menu:Enable()
+            Client.Controls:ToggleWalk(true)
+        end)
+    elseif Player.PlayerGui.MainGui.PCUI.Visible == true and CurrentPC ~= nil and CurrentPC.Enabled then
+        Client.Sound:Play("Boop")
+        Client.Menu.DisableBlur()
+        Client.Menu:Enable()
+        Client.Controls:ToggleWalk(true)
+        CurrentPC.PCUI.Visible = false
+        CurrentPC:Destroy()
+        Client.PCClosed:Fire()
+        Client.guiholder.Dragging:ClearAllChildren()
+    end
+end)
